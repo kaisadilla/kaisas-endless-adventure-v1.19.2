@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:and",
+    "values": [
+      "#minecraft:is_end",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "features": [
+    "tconstruct:cobalt_ore_small",
+    "tconstruct:cobalt_ore_large"
+  ],
+  "step": "underground_decoration"
+}

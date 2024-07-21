@@ -32,37 +32,73 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
-| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
-| printTypes |  |  | void | ✘ |
-| custom | JsonObject |  | RecipeJS | ✘ |
-| getRecipes |  |  | Map<String, Object> | ✘ |
-| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
-| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
-| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | runInParallel | Runnable |  | void | ✔ |
 | runInParallel | Callable<T> |  | T | ✔ |
-| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
-| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| getRecipeFunction | String |  | RecipeTypeFunction | ✘ |
 | containsRecipe | RecipeFilter |  | boolean | ✘ |
-| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | findRecipes | RecipeFilter |  | Collection<RecipeJS> | ✘ |
-| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
+| recipeStream | RecipeFilter |  | Stream<RecipeJS> | ✘ |
+| customFilter | Predicate<RecipeKJS> |  | RecipeFilter | ✘ |
+| forEachRecipe | RecipeFilter, Consumer<RecipeJS> |  | void | ✘ |
 | countRecipes | RecipeFilter |  | int | ✘ |
-| setItemErrors | boolean |  | void | ✘ |
+| findRecipeIds | RecipeFilter |  | Collection<ResourceLocation> | ✘ |
 | printAllTypes |  |  | void | ✘ |
+| setItemErrors | boolean |  | void | ✘ |
 | printExamples | String |  | void | ✘ |
 | remove | RecipeFilter |  | void | ✘ |
 | stage | RecipeFilter, String |  | void | ✘ |
+| printTypes |  |  | void | ✘ |
+| getRecipes |  |  | Map<String, Object> | ✘ |
+| takeId | RecipeJS, String, String |  | ResourceLocation | ✘ |
+| custom | JsonObject |  | RecipeJS | ✘ |
+| addRecipe | RecipeJS, boolean |  | RecipeJS | ✘ |
+| replaceOutput | RecipeFilter, ReplacementMatch, OutputReplacement |  | void | ✘ |
+| replaceInput | RecipeFilter, ReplacementMatch, InputReplacement |  | void | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
+| success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
 
 - `Object cancel(Object var0)`
 
@@ -80,42 +116,6 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
 ```
 
 

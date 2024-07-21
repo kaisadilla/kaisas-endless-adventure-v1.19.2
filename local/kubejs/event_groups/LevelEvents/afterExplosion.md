@@ -24,26 +24,26 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getAffectedBlocks |  |  | List<BlockContainerJS> | ✘ |
-| getAffectedEntities |  |  | EntityArrayList | ✘ |
-| removeAffectedEntity | Entity |  | void | ✘ |
+| removeKnockback |  |  | void | ✘ |
 | removeAllAffectedEntities |  |  | void | ✘ |
 | removeAffectedBlock | BlockContainerJS |  | void | ✘ |
 | removeAllAffectedBlocks |  |  | void | ✘ |
-| removeKnockback |  |  | void | ✘ |
+| removeAffectedEntity | Entity |  | void | ✘ |
+| getAffectedEntities |  |  | EntityArrayList | ✘ |
+| getExploder |  |  | LivingEntity | ✘ |
+| getZ |  |  | double | ✘ |
+| getPosition |  |  | Vec3 | ✘ |
 | getY |  |  | double | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getZ |  |  | double | ✘ |
 | getX |  |  | double | ✘ |
-| getExploder |  |  | LivingEntity | ✘ |
 | getLevel |  |  | Level | ✘ |
-| getPosition |  |  | Vec3 | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
+| success |  |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
-| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -53,18 +53,9 @@ Note: Even if no fields are listed above, some methods are still available as fi
 Gets a list of all blocks affected by the explosion.
 ```
 
-- `EntityArrayList getAffectedEntities()`
+- `void removeKnockback()`
 ```
-Gets a list of all entities affected by the explosion.
-```
-
-- `void removeAffectedEntity(Entity var0)`
-
-  Parameters:
-  - var0: Entity
-
-```
-Remove an entity from the list of affected entities.
+Remove all knockback from all affected *players*.
 ```
 
 - `void removeAllAffectedEntities()`
@@ -86,9 +77,54 @@ Remove a block from the list of affected blocks.
 Remove all blocks from the list of affected blocks.
 ```
 
-- `void removeKnockback()`
+- `void removeAffectedEntity(Entity var0)`
+
+  Parameters:
+  - var0: Entity
+
 ```
-Remove all knockback from all affected *players*.
+Remove an entity from the list of affected entities.
+```
+
+- `EntityArrayList getAffectedEntities()`
+```
+Gets a list of all entities affected by the explosion.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object success()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
 ```
 
 - `Object cancel(Object var0)`
@@ -107,42 +143,6 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
 ```
 
 

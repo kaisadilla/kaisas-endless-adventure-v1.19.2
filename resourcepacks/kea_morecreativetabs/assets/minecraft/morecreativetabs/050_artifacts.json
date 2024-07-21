@@ -1,0 +1,101 @@
+{
+    "tab_enabled": true,
+    "tab_name": "artifacts",
+    "tab_stack": {
+        "name": "minecraft:totem_of_undying"
+    },
+    "tab_items": [
+        {
+            "name": "tarotcards:tarot_deck",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:death",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:judgement",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:justice",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:strength",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:temperance",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_chariot",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_devil",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_emperor",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_empress",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_fool",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_hanged_man",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_hermit",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_hierophant",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_high_priestess",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_lovers",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_magician",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_moon",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_star",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_sun",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_tower",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:the_world",
+            "hide_old_tab": true
+        },
+        {
+            "name": "tarotcards:wheel_of_fortune",
+            "hide_old_tab": true
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:and",
+    "values": [
+      "#minecraft:is_end",
+      "#minecraft:is_overworld"
+    ]
+  },
+  "features": "tconstruct:earth_geode",
+  "step": "local_modifications"
+}

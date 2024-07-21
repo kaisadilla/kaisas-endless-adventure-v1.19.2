@@ -133,3 +133,4 @@
 !autumnity:maple_forest,
 !autumnity:pumpkin_fields,
 !quark:glimmering_weald,
+!desolation:charred_forest,
