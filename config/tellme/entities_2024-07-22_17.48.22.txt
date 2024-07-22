@@ -1,0 +1,353 @@
++--------------------------+---------------------------------------------------------------+-----+----------------------------+
+| Mod name                 | Registry name                                                 |  ID | Category                   |
++--------------------------+---------------------------------------------------------------+-----+----------------------------+
+| AstikorCarts             | astikorcarts:animal_cart                                      | 289 | misc                       |
+| AstikorCarts             | astikorcarts:plow                                             | 288 | misc                       |
+| AstikorCarts             | astikorcarts:postilion                                        | 290 | misc                       |
+| AstikorCarts             | astikorcarts:supply_cart                                      | 287 | misc                       |
+| Autumnity                | autumnity:snail                                               | 292 | creature                   |
+| Autumnity                | autumnity:turkey                                              | 293 | creature                   |
+| Autumnity                | autumnity:turkey_egg                                          | 294 | misc                       |
+| Biomes O' Plenty         | biomesoplenty:boat                                            | 285 | misc                       |
+| Biomes O' Plenty         | biomesoplenty:chest_boat                                      | 286 | misc                       |
+| Blueprint                | blueprint:boat                                                | 208 | misc                       |
+| Blueprint                | blueprint:chest_boat                                          | 209 | misc                       |
+| Blueprint                | blueprint:falling_block                                       | 210 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:baby_skeleton                                | 135 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:baby_skeleton_minion                         | 172 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:barrel_zombie                                | 137 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:bloody_gadfly                                | 159 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:bone_imp                                     | 148 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:bone_imp_minion                              | 175 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:bonescaller                                  | 146 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:bonescaller_not_despawn                      | 124 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:controlled_baby_skeleton                     | 173 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:corpse_fish                                  | 165 | water_creature             |
+| Born in Chaos            | born_in_chaos_v1:corpse_fly                                   | 158 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:dark_vortex                                  | 150 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:decaying_zombie                              | 134 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:decaying_zombie_not_despawn                  | 122 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:decrepit_skeleton                            | 132 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:diamond_termite                              | 145 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:dire_hound_leader                            | 152 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:door_knight                                  | 139 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:door_knight_not_despawn                      | 123 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:dread_hound                                  | 151 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:dread_hound_not_despawn                      | 127 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:fallen_chaos_knight                          | 153 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:felsteed                                     | 179 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:firelight                                    | 144 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:firelight_not_despawn                        | 128 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:glutton_fish                                 | 166 | water_creature             |
+| Born in Chaos            | born_in_chaos_v1:infernal_spirit                              | 131 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:lord_pumpkinhead                             | 171 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:lord_pumpkinhead_head                        | 188 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:lord_pumpkinhead_withouta_horse              | 186 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:lord_the_headless                            | 187 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:lords_felsteed                               | 185 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:maggot                                       | 157 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:missioner                                    | 167 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:mr_pumpkin                                   | 168 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:mr_pumpkin_controlled                        | 178 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:nightmare_stalker                            | 149 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:phantom_creeper                              | 138 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:phantom_creeper_copy                         | 174 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:projectile_intoxicatind_bomb_projectile      | 195 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_missionary_charge                 | 200 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_pumpkin_pistol_2_projectile       | 197 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_pumpkin_pistol_projectile         | 196 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_pumpkin_staff_2_projectile        | 194 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_pumpkin_staff_projectile          | 192 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_staffof_blindness_projectile      | 191 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_staffof_magic_arrows_2_projectile | 193 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:projectile_staffof_magic_arrows_projectile   | 190 | misc                       |
+| Born in Chaos            | born_in_chaos_v1:pumpkin_bomb                                 | 130 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:pumpkin_spirit                               | 142 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:pumpkinhead                                  | 182 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:restless_spirit                              | 140 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:riding_felsteed                              | 183 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:riding_lords_felsteed                        | 189 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:scarlet_persecutor                           | 154 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:seared_spirit                                | 143 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:seared_spirit_not_despawn                    | 184 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:senor_pumpkin                                | 170 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:siamese_skeletons                            | 136 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:siamese_skeletonsleft                        | 198 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:siamese_skeletonsright                       | 199 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:sir_pumpkinhead                              | 169 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:sir_pumpkinhead_without_horse                | 180 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:sir_the_headless                             | 181 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:skeleton_demoman                             | 133 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:skeleton_thrasher                            | 141 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:skeleton_thrasher_not_despawn                | 126 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:spirit_guide                                 | 155 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:spirit_guide_assistant                       | 177 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:supreme_bonescaller                          | 147 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:supreme_bonescaller_not_despawn              | 125 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:supreme_bonescaller_stage_2                  | 176 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:swarmer                                      | 160 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:thornshell_crab                              | 164 | creature                   |
+| Born in Chaos            | born_in_chaos_v1:zombie_bruiser                               | 163 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:zombie_clown                                 | 156 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:zombie_clown_not_despawn                     | 129 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:zombie_fisherman                             | 161 | monster                    |
+| Born in Chaos            | born_in_chaos_v1:zombie_lumberjack                            | 162 | monster                    |
+| CoFH Core                | cofh_core:electric_arc                                        | 240 | misc                       |
+| CoFH Core                | cofh_core:electric_field                                      | 241 | misc                       |
+| CoFH Core                | cofh_core:frost_field                                         | 242 | misc                       |
+| CoFH Core                | cofh_core:knife                                               | 238 | misc                       |
+| CoFH Core                | cofh_core:shockwave                                           | 239 | misc                       |
+| Creeper Overhaul         | creeperoverhaul:badlands_creeper                              | 298 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:bamboo_creeper                                | 296 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:beach_creeper                                 | 307 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:cave_creeper                                  | 304 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:dark_oak_creeper                              | 305 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:desert_creeper                                | 297 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:dripstone_creeper                             | 303 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:hills_creeper                                 | 299 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:jungle_creeper                                | 295 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:mushroom_creeper                              | 301 | creature                   |
+| Creeper Overhaul         | creeperoverhaul:ocean_creeper                                 | 309 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:savannah_creeper                              | 300 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:snowy_creeper                                 | 308 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:spruce_creeper                                | 306 | monster                    |
+| Creeper Overhaul         | creeperoverhaul:swamp_creeper                                 | 302 | monster                    |
+| Desolation (Forge)       | desolation:blackened                                          | 205 | ambient                    |
+| Desolation (Forge)       | desolation:projectile_ash_pile_thrown                         | 204 | misc                       |
+| Farmer's Delight         | farmersdelight:rotten_tomato                                  | 121 | misc                       |
+| Gravestone Mod           | gravestone:player_ghost                                       | 291 | monster                    |
+| InsaneLib                | insanelib:area_effect_cloud_3d                                | 118 | misc                       |
+| Lootr                    | lootr:lootr_minecart                                          | 310 | misc                       |
+| Luggage                  | luggage:ender_luggage                                         | 207 | creature                   |
+| Luggage                  | luggage:luggage                                               | 206 | creature                   |
+| Mimic                    | mimic:mimic                                                   | 119 | misc                       |
+| Minecraft                | minecraft:allay                                               |   0 | creature                   |
+| Minecraft                | minecraft:area_effect_cloud                                   |   1 | misc                       |
+| Minecraft                | minecraft:armor_stand                                         |   2 | misc                       |
+| Minecraft                | minecraft:arrow                                               |   3 | misc                       |
+| Minecraft                | minecraft:axolotl                                             |   4 | axolotls                   |
+| Minecraft                | minecraft:bat                                                 |   5 | ambient                    |
+| Minecraft                | minecraft:bee                                                 |   6 | creature                   |
+| Minecraft                | minecraft:blaze                                               |   7 | monster                    |
+| Minecraft                | minecraft:boat                                                |   8 | misc                       |
+| Minecraft                | minecraft:cat                                                 |  10 | creature                   |
+| Minecraft                | minecraft:cave_spider                                         |  11 | monster                    |
+| Minecraft                | minecraft:chest_boat                                          |   9 | misc                       |
+| Minecraft                | minecraft:chest_minecart                                      |  54 | misc                       |
+| Minecraft                | minecraft:chicken                                             |  12 | creature                   |
+| Minecraft                | minecraft:cod                                                 |  13 | water_ambient              |
+| Minecraft                | minecraft:command_block_minecart                              |  55 | misc                       |
+| Minecraft                | minecraft:cow                                                 |  14 | creature                   |
+| Minecraft                | minecraft:creeper                                             |  15 | monster                    |
+| Minecraft                | minecraft:dolphin                                             |  16 | water_creature             |
+| Minecraft                | minecraft:donkey                                              |  17 | creature                   |
+| Minecraft                | minecraft:dragon_fireball                                     |  18 | misc                       |
+| Minecraft                | minecraft:drowned                                             |  19 | monster                    |
+| Minecraft                | minecraft:egg                                                 |  93 | misc                       |
+| Minecraft                | minecraft:elder_guardian                                      |  20 | monster                    |
+| Minecraft                | minecraft:end_crystal                                         |  21 | misc                       |
+| Minecraft                | minecraft:ender_dragon                                        |  22 | monster                    |
+| Minecraft                | minecraft:ender_pearl                                         |  94 | misc                       |
+| Minecraft                | minecraft:enderman                                            |  23 | monster                    |
+| Minecraft                | minecraft:endermite                                           |  24 | monster                    |
+| Minecraft                | minecraft:evoker                                              |  25 | monster                    |
+| Minecraft                | minecraft:evoker_fangs                                        |  26 | misc                       |
+| Minecraft                | minecraft:experience_bottle                                   |  95 | misc                       |
+| Minecraft                | minecraft:experience_orb                                      |  27 | misc                       |
+| Minecraft                | minecraft:eye_of_ender                                        |  28 | misc                       |
+| Minecraft                | minecraft:falling_block                                       |  29 | misc                       |
+| Minecraft                | minecraft:fireball                                            |  46 | misc                       |
+| Minecraft                | minecraft:firework_rocket                                     |  30 | misc                       |
+| Minecraft                | minecraft:fishing_bobber                                      | 117 | misc                       |
+| Minecraft                | minecraft:fox                                                 |  31 | creature                   |
+| Minecraft                | minecraft:frog                                                |  32 | creature                   |
+| Minecraft                | minecraft:furnace_minecart                                    |  56 | misc                       |
+| Minecraft                | minecraft:ghast                                               |  33 | monster                    |
+| Minecraft                | minecraft:giant                                               |  34 | monster                    |
+| Minecraft                | minecraft:glow_item_frame                                     |  35 | misc                       |
+| Minecraft                | minecraft:glow_squid                                          |  36 | underground_water_creature |
+| Minecraft                | minecraft:goat                                                |  37 | creature                   |
+| Minecraft                | minecraft:guardian                                            |  38 | monster                    |
+| Minecraft                | minecraft:hoglin                                              |  39 | monster                    |
+| Minecraft                | minecraft:hopper_minecart                                     |  57 | misc                       |
+| Minecraft                | minecraft:horse                                               |  40 | creature                   |
+| Minecraft                | minecraft:husk                                                |  41 | monster                    |
+| Minecraft                | minecraft:illusioner                                          |  42 | monster                    |
+| Minecraft                | minecraft:iron_golem                                          |  43 | misc                       |
+| Minecraft                | minecraft:item                                                |  44 | misc                       |
+| Minecraft                | minecraft:item_frame                                          |  45 | misc                       |
+| Minecraft                | minecraft:leash_knot                                          |  47 | misc                       |
+| Minecraft                | minecraft:lightning_bolt                                      |  48 | misc                       |
+| Minecraft                | minecraft:llama                                               |  49 | creature                   |
+| Minecraft                | minecraft:llama_spit                                          |  50 | misc                       |
+| Minecraft                | minecraft:magma_cube                                          |  51 | monster                    |
+| Minecraft                | minecraft:marker                                              |  52 | misc                       |
+| Minecraft                | minecraft:minecart                                            |  53 | misc                       |
+| Minecraft                | minecraft:mooshroom                                           |  61 | creature                   |
+| Minecraft                | minecraft:mule                                                |  60 | creature                   |
+| Minecraft                | minecraft:ocelot                                              |  62 | creature                   |
+| Minecraft                | minecraft:painting                                            |  63 | misc                       |
+| Minecraft                | minecraft:panda                                               |  64 | creature                   |
+| Minecraft                | minecraft:parrot                                              |  65 | creature                   |
+| Minecraft                | minecraft:phantom                                             |  66 | monster                    |
+| Minecraft                | minecraft:pig                                                 |  67 | creature                   |
+| Minecraft                | minecraft:piglin                                              |  68 | monster                    |
+| Minecraft                | minecraft:piglin_brute                                        |  69 | monster                    |
+| Minecraft                | minecraft:pillager                                            |  70 | monster                    |
+| Minecraft                | minecraft:player                                              | 116 | misc                       |
+| Minecraft                | minecraft:polar_bear                                          |  71 | creature                   |
+| Minecraft                | minecraft:potion                                              |  96 | misc                       |
+| Minecraft                | minecraft:pufferfish                                          |  73 | water_ambient              |
+| Minecraft                | minecraft:rabbit                                              |  74 | creature                   |
+| Minecraft                | minecraft:ravager                                             |  75 | monster                    |
+| Minecraft                | minecraft:salmon                                              |  76 | water_ambient              |
+| Minecraft                | minecraft:sheep                                               |  77 | creature                   |
+| Minecraft                | minecraft:shulker                                             |  78 | monster                    |
+| Minecraft                | minecraft:shulker_bullet                                      |  79 | misc                       |
+| Minecraft                | minecraft:silverfish                                          |  80 | monster                    |
+| Minecraft                | minecraft:skeleton                                            |  81 | monster                    |
+| Minecraft                | minecraft:skeleton_horse                                      |  82 | creature                   |
+| Minecraft                | minecraft:slime                                               |  83 | monster                    |
+| Minecraft                | minecraft:small_fireball                                      |  84 | misc                       |
+| Minecraft                | minecraft:snow_golem                                          |  85 | misc                       |
+| Minecraft                | minecraft:snowball                                            |  86 | misc                       |
+| Minecraft                | minecraft:spawner_minecart                                    |  58 | misc                       |
+| Minecraft                | minecraft:spectral_arrow                                      |  87 | misc                       |
+| Minecraft                | minecraft:spider                                              |  88 | monster                    |
+| Minecraft                | minecraft:squid                                               |  89 | water_creature             |
+| Minecraft                | minecraft:stray                                               |  90 | monster                    |
+| Minecraft                | minecraft:strider                                             |  91 | creature                   |
+| Minecraft                | minecraft:tadpole                                             |  92 | creature                   |
+| Minecraft                | minecraft:tnt                                                 |  72 | misc                       |
+| Minecraft                | minecraft:tnt_minecart                                        |  59 | misc                       |
+| Minecraft                | minecraft:trader_llama                                        |  98 | creature                   |
+| Minecraft                | minecraft:trident                                             |  97 | misc                       |
+| Minecraft                | minecraft:tropical_fish                                       |  99 | water_ambient              |
+| Minecraft                | minecraft:turtle                                              | 100 | creature                   |
+| Minecraft                | minecraft:vex                                                 | 101 | monster                    |
+| Minecraft                | minecraft:villager                                            | 102 | misc                       |
+| Minecraft                | minecraft:vindicator                                          | 103 | monster                    |
+| Minecraft                | minecraft:wandering_trader                                    | 104 | creature                   |
+| Minecraft                | minecraft:warden                                              | 105 | monster                    |
+| Minecraft                | minecraft:witch                                               | 106 | monster                    |
+| Minecraft                | minecraft:wither                                              | 107 | monster                    |
+| Minecraft                | minecraft:wither_skeleton                                     | 108 | monster                    |
+| Minecraft                | minecraft:wither_skull                                        | 109 | misc                       |
+| Minecraft                | minecraft:wolf                                                | 110 | creature                   |
+| Minecraft                | minecraft:zoglin                                              | 111 | monster                    |
+| Minecraft                | minecraft:zombie                                              | 112 | monster                    |
+| Minecraft                | minecraft:zombie_horse                                        | 113 | creature                   |
+| Minecraft                | minecraft:zombie_villager                                     | 114 | monster                    |
+| Minecraft                | minecraft:zombified_piglin                                    | 115 | monster                    |
+| Pretty Pipes             | prettypipes:pipe_frame                                        | 120 | misc                       |
+| Quark                    | quark:crab                                                    | 318 | creature                   |
+| Quark                    | quark:dyed_item_frame                                         | 314 | misc                       |
+| Quark                    | quark:echorang                                                | 325 | misc                       |
+| Quark                    | quark:flamerang                                               | 324 | misc                       |
+| Quark                    | quark:forgotten                                               | 319 | monster                    |
+| Quark                    | quark:foxhound                                                | 315 | creature                   |
+| Quark                    | quark:glass_frame                                             | 312 | misc                       |
+| Quark                    | quark:gravisand                                               | 313 | misc                       |
+| Quark                    | quark:parrot_egg                                              | 326 | misc                       |
+| Quark                    | quark:pickarang                                               | 323 | misc                       |
+| Quark                    | quark:quark_boat                                              | 330 | misc                       |
+| Quark                    | quark:quark_chest_boat                                        | 331 | misc                       |
+| Quark                    | quark:shiba                                                   | 320 | creature                   |
+| Quark                    | quark:skull_pike                                              | 328 | misc                       |
+| Quark                    | quark:soul_bead                                               | 317 | misc                       |
+| Quark                    | quark:stoneling                                               | 321 | creature                   |
+| Quark                    | quark:stool                                                   | 311 | misc                       |
+| Quark                    | quark:torch_arrow                                             | 327 | misc                       |
+| Quark                    | quark:toretoise                                               | 322 | creature                   |
+| Quark                    | quark:totem                                                   | 329 | misc                       |
+| Quark                    | quark:wraith                                                  | 316 | monster                    |
+| Realistic Horse Genetics | horse_colors:donkey                                           | 202 | creature                   |
+| Realistic Horse Genetics | horse_colors:horse_felinoid                                   | 201 | creature                   |
+| Realistic Horse Genetics | horse_colors:mule                                             | 203 | creature                   |
+| Realm RPG: Pots & Mimics | pots_and_mimics:end_pot_crab                                  | 346 | monster                    |
+| Realm RPG: Pots & Mimics | pots_and_mimics:nether_pot_crab                               | 345 | monster                    |
+| Realm RPG: Pots & Mimics | pots_and_mimics:poison_pot_crab                               | 344 | monster                    |
+| Realm RPG: Pots & Mimics | pots_and_mimics:pot_crab                                      | 343 | monster                    |
+| Savage & Ravage          | savage_and_ravage:burning_banner                              | 218 | misc                       |
+| Savage & Ravage          | savage_and_ravage:confusion_bolt                              | 224 | misc                       |
+| Savage & Ravage          | savage_and_ravage:creepie                                     | 212 | creature                   |
+| Savage & Ravage          | savage_and_ravage:executioner                                 | 217 | monster                    |
+| Savage & Ravage          | savage_and_ravage:griefer                                     | 213 | monster                    |
+| Savage & Ravage          | savage_and_ravage:ice_chunk                                   | 221 | misc                       |
+| Savage & Ravage          | savage_and_ravage:ice_cloud                                   | 222 | misc                       |
+| Savage & Ravage          | savage_and_ravage:iceologer                                   | 216 | monster                    |
+| Savage & Ravage          | savage_and_ravage:mischief_arrow                              | 215 | misc                       |
+| Savage & Ravage          | savage_and_ravage:rune_prison                                 | 223 | misc                       |
+| Savage & Ravage          | savage_and_ravage:skeleton_villager                           | 211 | monster                    |
+| Savage & Ravage          | savage_and_ravage:spore_bomb                                  | 220 | misc                       |
+| Savage & Ravage          | savage_and_ravage:spore_cloud                                 | 219 | misc                       |
+| Savage & Ravage          | savage_and_ravage:trickster                                   | 214 | monster                    |
+| Simply Swords            | simplyswords:battlestandard                                   | 283 | misc                       |
+| Simply Swords            | simplyswords:battlestandarddark                               | 284 | misc                       |
+| Supplementaries          | supplementaries:bomb                                          | 340 | misc                       |
+| Supplementaries          | supplementaries:brick_projectile                              | 339 | misc                       |
+| Supplementaries          | supplementaries:dispenser_minecart                            | 333 | misc                       |
+| Supplementaries          | supplementaries:falling_ash                                   | 336 | misc                       |
+| Supplementaries          | supplementaries:falling_lantern                               | 337 | misc                       |
+| Supplementaries          | supplementaries:falling_sack                                  | 338 | misc                       |
+| Supplementaries          | supplementaries:falling_urn                                   | 335 | misc                       |
+| Supplementaries          | supplementaries:pearl_marker                                  | 332 | misc                       |
+| Supplementaries          | supplementaries:red_merchant                                  | 334 | creature                   |
+| Supplementaries          | supplementaries:rope_arrow                                    | 341 | misc                       |
+| Supplementaries          | supplementaries:slingshot_projectile                          | 342 | misc                       |
+| Thermal Series           | thermal:basalz                                                | 243 | monster                    |
+| Thermal Series           | thermal:basalz_projectile                                     | 246 | misc                       |
+| Thermal Series           | thermal:blitz                                                 | 245 | monster                    |
+| Thermal Series           | thermal:blitz_projectile                                      | 248 | misc                       |
+| Thermal Series           | thermal:blizz                                                 | 244 | monster                    |
+| Thermal Series           | thermal:blizz_projectile                                      | 247 | misc                       |
+| Thermal Series           | thermal:earth_grenade                                         | 253 | misc                       |
+| Thermal Series           | thermal:earth_tnt                                             | 263 | misc                       |
+| Thermal Series           | thermal:ender_grenade                                         | 254 | misc                       |
+| Thermal Series           | thermal:ender_tnt                                             | 264 | misc                       |
+| Thermal Series           | thermal:explosive_grenade                                     | 249 | misc                       |
+| Thermal Series           | thermal:fire_grenade                                          | 250 | misc                       |
+| Thermal Series           | thermal:fire_tnt                                              | 260 | misc                       |
+| Thermal Series           | thermal:glowstone_grenade                                     | 255 | misc                       |
+| Thermal Series           | thermal:glowstone_tnt                                         | 265 | misc                       |
+| Thermal Series           | thermal:ice_grenade                                           | 251 | misc                       |
+| Thermal Series           | thermal:ice_tnt                                               | 261 | misc                       |
+| Thermal Series           | thermal:lightning_grenade                                     | 252 | misc                       |
+| Thermal Series           | thermal:lightning_tnt                                         | 262 | misc                       |
+| Thermal Series           | thermal:nuke_grenade                                          | 259 | misc                       |
+| Thermal Series           | thermal:nuke_tnt                                              | 269 | misc                       |
+| Thermal Series           | thermal:phyto_grenade                                         | 258 | misc                       |
+| Thermal Series           | thermal:phyto_tnt                                             | 268 | misc                       |
+| Thermal Series           | thermal:redstone_grenade                                      | 256 | misc                       |
+| Thermal Series           | thermal:redstone_tnt                                          | 266 | misc                       |
+| Thermal Series           | thermal:rubberwood_boat                                       | 270 | misc                       |
+| Thermal Series           | thermal:rubberwood_chest_boat                                 | 271 | misc                       |
+| Thermal Series           | thermal:slime_grenade                                         | 257 | misc                       |
+| Thermal Series           | thermal:slime_tnt                                             | 267 | misc                       |
+| Tinkers' Construct       | tconstruct:crystalshot                                        | 282 | misc                       |
+| Tinkers' Construct       | tconstruct:efln_ball                                          | 274 | misc                       |
+| Tinkers' Construct       | tconstruct:ender_slime                                        | 278 | monster                    |
+| Tinkers' Construct       | tconstruct:fancy_item_frame                                   | 272 | misc                       |
+| Tinkers' Construct       | tconstruct:flint_shuriken                                     | 276 | misc                       |
+| Tinkers' Construct       | tconstruct:fluid_spit                                         | 280 | misc                       |
+| Tinkers' Construct       | tconstruct:glow_ball                                          | 273 | misc                       |
+| Tinkers' Construct       | tconstruct:indestructible_item                                | 281 | misc                       |
+| Tinkers' Construct       | tconstruct:quartz_shuriken                                    | 275 | misc                       |
+| Tinkers' Construct       | tconstruct:sky_slime                                          | 277 | monster                    |
+| Tinkers' Construct       | tconstruct:terracube                                          | 279 | monster                    |
+| Upgrade Aquatic          | upgrade_aquatic:box_jellyfish                                 | 235 | water_creature             |
+| Upgrade Aquatic          | upgrade_aquatic:cassiopea_jellyfish                           | 236 | water_creature             |
+| Upgrade Aquatic          | upgrade_aquatic:flare                                         | 232 | monster                    |
+| Upgrade Aquatic          | upgrade_aquatic:goose                                         | 234 | creature                   |
+| Upgrade Aquatic          | upgrade_aquatic:great_thrasher                                | 231 | monster                    |
+| Upgrade Aquatic          | upgrade_aquatic:immortal_jellyfish                            | 237 | water_creature             |
+| Upgrade Aquatic          | upgrade_aquatic:lionfish                                      | 229 | water_ambient              |
+| Upgrade Aquatic          | upgrade_aquatic:nautilus                                      | 226 | water_ambient              |
+| Upgrade Aquatic          | upgrade_aquatic:perch                                         | 228 | water_ambient              |
+| Upgrade Aquatic          | upgrade_aquatic:pike                                          | 227 | water_ambient              |
+| Upgrade Aquatic          | upgrade_aquatic:sonar_wave                                    | 225 | misc                       |
+| Upgrade Aquatic          | upgrade_aquatic:thrasher                                      | 230 | monster                    |
+| Upgrade Aquatic          | upgrade_aquatic:ululu                                         | 233 | monster                    |
++--------------------------+---------------------------------------------------------------+-----+----------------------------+
+| Mod name                 | Registry name                                                 |  ID | Category                   |
++--------------------------+---------------------------------------------------------------+-----+----------------------------+

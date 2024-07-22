@@ -1,0 +1,63 @@
++-------+------------------------------------+---------------------------------+------------------------------------------------------------------+
+| Index | Name                               | Translated Name                 | Icon Item                                                        |
++-------+------------------------------------+---------------------------------+------------------------------------------------------------------+
+|     0 | building_blocks                    | Building Blocks                 | [minecraft:bricks - 'Bricks']                                    |
+|     1 | decorations                        | Decoration Blocks               | [minecraft:peony - 'Peony']                                      |
+|     2 | redstone                           | Redstone                        | [minecraft:redstone - 'Redstone Dust']                           |
+|     3 | transportation                     | Transportation                  | [minecraft:powered_rail - 'Powered Rail']                        |
+|     4 | hotbar                             | Saved Hotbars                   | [minecraft:bookshelf - 'Oak Bookshelf']                          |
+|     5 | search                             | Search Items                    | [minecraft:compass - 'Compass']                                  |
+|     6 | misc                               | Miscellaneous                   | [minecraft:lava_bucket - 'Lava Bucket']                          |
+|     7 | food                               | Foodstuffs                      | [minecraft:apple - 'Apple']                                      |
+|     8 | tools                              | Tools                           | [minecraft:iron_axe - 'Iron Axe']                                |
+|     9 | combat                             | Combat                          | [minecraft:golden_sword - 'Golden Sword']                        |
+|    10 | brewing                            | Brewing                         | [minecraft:potion - 'Water Bottle']                              |
+|    11 | inventory                          | Survival Inventory              | [minecraft:chest - 'Chest']                                      |
+|    12 | prettypipes                        | Pretty Pipes                    | [prettypipes:wrench - 'Pipe Wrench']                             |
+|    13 | farmersdelight                     | Farmer's Delight                | [farmersdelight:stove - 'Stove']                                 |
+|    14 | tabbornin_chaos_mobs               | Born in Chaos Mobs              | [born_in_chaos_v1:shattered_skull - 'Shattered Skull']           |
+|    15 | tabbornin_chaos_items              | Born in Chaos Items             | [born_in_chaos_v1:fire_dust - 'Fire Light Dust']                 |
+|    16 | tabweapons_bornin_chaos            | Born in Chaos Weapons           | [born_in_chaos_v1:dark_metal_armor_helmet - 'Dark Metal Helmet'] |
+|    17 | tabblock_borin_chaos               | Born in Chaos Blocks            | [born_in_chaos_v1:dark_metal_block - 'Dark Metal Block']         |
+|    18 | tabdebugging_bornin_chaos          | Born in Chaos Debug             | [born_in_chaos_v1:magicskull - 'Magicskull']                     |
+|    19 | tabdesolation                      | Desolation                      | [desolation:charredlog - 'Charred log']                          |
+|    20 | itemfilters.main                   | Item Filters                    | [itemfilters:always_true - 'Always True Filter']                 |
+|    21 | kaisa_core                         | Kaisacraft's core               | [kaisascore:titanium_ingot - 'Titanium Ingot']                   |
+|    22 | ironchest                          | Iron Chests                     | [ironchest:iron_chest - 'Iron Chest']                            |
+|    23 | tools_complement                   | Tool's Complement               | [tools_complement:diamond_sickle - 'Diamond Sickle']             |
+|    24 | custommachinery.group              | Custom Machinery                | [custommachinery:custom_machine_item - 'Dummy']                  |
+|    25 | thermal.blocks                     | Thermal Series: Blocks          | [thermal:enderium_block - 'Block of Enderium']                   |
+|    26 | thermal.devices                    | Thermal Series: Machinery       | [thermal:tinker_bench - 'Tinker's Workbench']                    |
+|    27 | thermal.items                      | Thermal Series: Items           | [thermal:signalum_gear - 'Signalum Gear']                        |
+|    28 | thermal.foods                      | Thermal Series: Crops and Foods | [thermal:apple_block - 'Crate of Apples']                        |
+|    29 | thermal.tools                      | Thermal Series: Tools           | [thermal:wrench - 'Crescent Hammer']                             |
+|    30 | simplyswords.simplyswords          | Simply Swords                   | [simplyswords:runic_tablet - 'Runic Tablet']                     |
+|    31 | ftbquests.ftbquests                | FTB Quests                      | [ftbquests:book - 'Quest Book']                                  |
+|    32 | tconstruct/general                 | Tinkers' General Items          | [tconstruct:sky_slime_ball - 'Skyslime Ball']                    |
+|    33 | waystones.waystones                | Waystones                       | [waystones:waystone - 'Waystone']                                |
+|    34 | searchlight                        | Searchlight Mod                 | [searchlight:searchlight - 'Searchlight']                        |
+|    35 | tconstruct/gadgets                 | Tinkers' Gadgets                | [tconstruct:clear_item_frame - 'Clear Item Frame']               |
+|    36 | oceansdelight                      | Ocean's Delight                 | [oceansdelight:guardian_soup - 'Guardian Soup']                  |
+|    37 | tconstruct/world                   | Tinkers' World                  | [tconstruct:cobalt_ore - 'Nether Cobalt Ore']                    |
+|    38 | creeperoverhaul.item_group         | Creeper Overhaul                | [minecraft:creeper_head - 'Creeper Head']                        |
+|    39 | kubejs.kubejs                      | KubeJS                          | [minecraft:purple_dye - 'Purple Dye']                            |
+|    40 | tconstruct/tool_parts              | Tinkers' Toolparts              | [tconstruct:pick_head - 'Pick Head']                             |
+|    41 | tconstruct/tools                   | Tinkers' Tools                  | [tconstruct:pickaxe - 'Pickaxe']                                 |
+|    42 | tconstruct/smeltery                | Tinkers' Smeltery               | [tconstruct:smeltery_controller - 'Smeltery Controller']         |
+|    43 | corail_woodcutter                  | Corail Woodcutter               | [corail_woodcutter:crimson_woodcutter - 'Crimson Sawmill']       |
+|    44 | tabHorseColors                     | Realistic Horse Genetics        | [minecraft:hay_block - 'Hay Bale']                               |
+|    45 | elevators_tab                      | Elevators                       | [elevatorid:elevator_white - 'White Elevator']                   |
+|    46 | biomesoplenty                      | Biomes O' Plenty                | [biomesoplenty:bop_icon - 'BOP Icon']                            |
+|    47 | storagedrawers                     | Storage Drawers                 | [storagedrawers:oak_full_drawers_2 - 'Oak Drawers 1x2']          |
+|    48 | morecreativetabs.terrain_blocks    | Terrain Blocks                  | [minecraft:grass_block - 'Grass Block']                          |
+|    49 | morecreativetabs.stone_blocks      | Stone Blocks                    | [minecraft:stone - 'Stone']                                      |
+|    50 | morecreativetabs.ore_tab           | Ores                            | [minecraft:iron_ingot - 'Iron Ingot']                            |
+|    51 | morecreativetabs.other_ore_tab     | Other Minerals                  | [thermal:sulfur - 'Sulfur']                                      |
+|    52 | morecreativetabs.light_sources     | Light                           | [minecraft:lantern - 'Lantern']                                  |
+|    53 | morecreativetabs.copper_decoration | Copper Decoration               | [minecraft:copper_block - 'Block of Copper']                     |
+|    54 | morecreativetabs.crafting_stations | Crafting Stations               | [minecraft:crafting_table - 'Crafting Board']                    |
+|    55 | morecreativetabs.artifacts         | Artifacts                       | [minecraft:totem_of_undying - 'Totem of Undying']                |
+|    56 | morecreativetabs.trash_bin         | Ignore this tab                 | [minecraft:mossy_cobblestone - 'Mossy Cobblestone']              |
++-------+------------------------------------+---------------------------------+------------------------------------------------------------------+
+| Index | Name                               | Translated Name                 | Icon Item                                                        |
++-------+------------------------------------+---------------------------------+------------------------------------------------------------------+

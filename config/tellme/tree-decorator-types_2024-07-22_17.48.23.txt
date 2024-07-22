@@ -1,0 +1,16 @@
++------------------------------------------------+
+| Registry name                                  |
++------------------------------------------------+
+| desolation:charred_forest_tree_fruit_decorator |
+| desolation:charred_forest_tree_leave_decorator |
+| desolation:charred_forest_tree_trunk_decorator |
+| minecraft:alter_ground                         |
+| minecraft:attached_to_leaves                   |
+| minecraft:beehive                              |
+| minecraft:cocoa                                |
+| minecraft:leave_vine                           |
+| minecraft:trunk_vine                           |
+| tconstruct:leave_vines                         |
++------------------------------------------------+
+| Registry name                                  |
++------------------------------------------------+

@@ -152,19 +152,19 @@
 		only_allow_harmful_effects = true
 
 	[functional.urn]
-		enabled = true
+		enabled = false
 		#Chance for an urn to spawn a critter from the urn_spawn tag
 		#Range: 0.0 ~ 1.0
 		critter_spawn_chance = 0.009999999776482582
 
 		[functional.urn.cave_urns]
-			enabled = true
+			enabled = false
 			#Attempts at every patch to spawn 1 block. Increases average patch size
 			#Range: 1 ~ 100
-			attempts_per_patch = 4
+			attempts_per_patch = 1
 			#Spawn attempts per chunk. Increases spawn frequency
 			#Range: 0 ~ 100
-			spawn_attempts = 7
+			spawn_attempts = 0
 
 	[functional.soap]
 		enabled = true

@@ -1,0 +1,11 @@
++------------------------+
+| Registry name          |
++------------------------+
+| blueprint:modded       |
+| minecraft:checkerboard |
+| minecraft:fixed        |
+| minecraft:multi_noise  |
+| minecraft:the_end      |
++------------------------+
+| Registry name          |
++------------------------+

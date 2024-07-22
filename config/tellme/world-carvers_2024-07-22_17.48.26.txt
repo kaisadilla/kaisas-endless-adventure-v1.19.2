@@ -1,0 +1,11 @@
++-----------------------------------+
+| Registry name                     |
++-----------------------------------+
+| biomesoplenty:origin_cave         |
+| minecraft:canyon                  |
+| minecraft:cave                    |
+| minecraft:nether_cave             |
+| upgrade_aquatic:underwater_canyon |
++-----------------------------------+
+| Registry name                     |
++-----------------------------------+

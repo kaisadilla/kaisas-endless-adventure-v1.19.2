@@ -1,0 +1,77 @@
++--------------------------------------+----------------------------+-------------------------+-------------------------+
+| Registry Name                        | Spawned ID                 | Egg primary color       | Egg secondary color     |
++--------------------------------------+----------------------------+-------------------------+-------------------------+
+| minecraft:allay_spawn_egg            | minecraft:allay            | 0x0000DAFF (     56063) | 0x0000ADFF (     44543) |
+| minecraft:axolotl_spawn_egg          | minecraft:axolotl          | 0x00FBC1E3 (  16499171) | 0x00A62D74 (  10890612) |
+| minecraft:bat_spawn_egg              | minecraft:bat              | 0x004C3E30 (   4996656) | 0x000F0F0F (    986895) |
+| minecraft:bee_spawn_egg              | minecraft:bee              | 0x00EDC343 (  15582019) | 0x0043241B (   4400155) |
+| minecraft:blaze_spawn_egg            | minecraft:blaze            | 0x00F6B201 (  16167425) | 0x00FFF87E (  16775294) |
+| minecraft:cat_spawn_egg              | minecraft:cat              | 0x00EFC88E (  15714446) | 0x00957256 (   9794134) |
+| minecraft:cave_spider_spawn_egg      | minecraft:cave_spider      | 0x000C424E (    803406) | 0x00A80E0E (  11013646) |
+| minecraft:chicken_spawn_egg          | minecraft:chicken          | 0x00A1A1A1 (  10592673) | 0x00FF0000 (  16711680) |
+| minecraft:cod_spawn_egg              | minecraft:cod              | 0x00C1A76A (  12691306) | 0x00E5C48B (  15058059) |
+| minecraft:cow_spawn_egg              | minecraft:cow              | 0x00443626 (   4470310) | 0x00A1A1A1 (  10592673) |
+| minecraft:creeper_spawn_egg          | minecraft:creeper          | 0x000DA70B (    894731) | 0x00000000 (         0) |
+| minecraft:dolphin_spawn_egg          | minecraft:dolphin          | 0x00223B4D (   2243405) | 0x00F9F9F9 (  16382457) |
+| minecraft:donkey_spawn_egg           | minecraft:donkey           | 0x00534539 (   5457209) | 0x00867566 (   8811878) |
+| minecraft:drowned_spawn_egg          | minecraft:drowned          | 0x008FF1D7 (   9433559) | 0x00799C65 (   7969893) |
+| minecraft:elder_guardian_spawn_egg   | minecraft:elder_guardian   | 0x00CECCBA (  13552826) | 0x00747693 (   7632531) |
+| minecraft:enderman_spawn_egg         | minecraft:enderman         | 0x00161616 (   1447446) | 0x00000000 (         0) |
+| minecraft:endermite_spawn_egg        | minecraft:endermite        | 0x00161616 (   1447446) | 0x006E6E6E (   7237230) |
+| minecraft:evoker_spawn_egg           | minecraft:evoker           | 0x00959B9B (   9804699) | 0x001E1C1A (   1973274) |
+| minecraft:fox_spawn_egg              | minecraft:fox              | 0x00D5B69F (  14005919) | 0x00CC6920 (  13396256) |
+| minecraft:frog_spawn_egg             | minecraft:frog             | 0x00D07444 (  13661252) | 0x00FFC77C (  16762748) |
+| minecraft:ghast_spawn_egg            | minecraft:ghast            | 0x00F9F9F9 (  16382457) | 0x00BCBCBC (  12369084) |
+| minecraft:glow_squid_spawn_egg       | minecraft:glow_squid       | 0x00095656 (    611926) | 0x0085F1BC (   8778172) |
+| minecraft:goat_spawn_egg             | minecraft:goat             | 0x00A5947C (  10851452) | 0x0055493E (   5589310) |
+| minecraft:guardian_spawn_egg         | minecraft:guardian         | 0x005A8272 (   5931634) | 0x00F17D30 (  15826224) |
+| minecraft:hoglin_spawn_egg           | minecraft:hoglin           | 0x00C66E55 (  13004373) | 0x005F6464 (   6251620) |
+| minecraft:horse_spawn_egg            | minecraft:horse            | 0x00C09E7D (  12623485) | 0x00EEE500 (  15656192) |
+| minecraft:husk_spawn_egg             | minecraft:husk             | 0x00797061 (   7958625) | 0x00E6CC94 (  15125652) |
+| minecraft:llama_spawn_egg            | minecraft:llama            | 0x00C09E7D (  12623485) | 0x00995F40 (  10051392) |
+| minecraft:magma_cube_spawn_egg       | minecraft:magma_cube       | 0x00340000 (   3407872) | 0x00FCFC00 (  16579584) |
+| minecraft:mooshroom_spawn_egg        | minecraft:mooshroom        | 0x00A00F10 (  10489616) | 0x00B7B7B7 (  12040119) |
+| minecraft:mule_spawn_egg             | minecraft:mule             | 0x001B0200 (   1769984) | 0x0051331D (   5321501) |
+| minecraft:ocelot_spawn_egg           | minecraft:ocelot           | 0x00EFDE7D (  15720061) | 0x00564434 (   5653556) |
+| minecraft:panda_spawn_egg            | minecraft:panda            | 0x00E7E7E7 (  15198183) | 0x001B1B22 (   1776418) |
+| minecraft:parrot_spawn_egg           | minecraft:parrot           | 0x000DA70B (    894731) | 0x00FF0000 (  16711680) |
+| minecraft:phantom_spawn_egg          | minecraft:phantom          | 0x0043518A (   4411786) | 0x0088FF00 (   8978176) |
+| minecraft:pig_spawn_egg              | minecraft:pig              | 0x00F0A5A2 (  15771042) | 0x00DB635F (  14377823) |
+| minecraft:piglin_brute_spawn_egg     | minecraft:piglin_brute     | 0x00592A10 (   5843472) | 0x00F9F3A4 (  16380836) |
+| minecraft:piglin_spawn_egg           | minecraft:piglin           | 0x00995F40 (  10051392) | 0x00F9F3A4 (  16380836) |
+| minecraft:pillager_spawn_egg         | minecraft:pillager         | 0x00532F36 (   5451574) | 0x00959B9B (   9804699) |
+| minecraft:polar_bear_spawn_egg       | minecraft:polar_bear       | 0x00F2F2F2 (  15921906) | 0x00959590 (   9803152) |
+| minecraft:pufferfish_spawn_egg       | minecraft:pufferfish       | 0x00F6B201 (  16167425) | 0x0037C3F2 (   3654642) |
+| minecraft:rabbit_spawn_egg           | minecraft:rabbit           | 0x00995F40 (  10051392) | 0x00734831 (   7555121) |
+| minecraft:ravager_spawn_egg          | minecraft:ravager          | 0x00757470 (   7697520) | 0x005B5049 (   5984329) |
+| minecraft:salmon_spawn_egg           | minecraft:salmon           | 0x00A00F10 (  10489616) | 0x000E8474 (    951412) |
+| minecraft:sheep_spawn_egg            | minecraft:sheep            | 0x00E7E7E7 (  15198183) | 0x00FFB5B5 (  16758197) |
+| minecraft:shulker_spawn_egg          | minecraft:shulker          | 0x00946794 (   9725844) | 0x004D3852 (   5060690) |
+| minecraft:silverfish_spawn_egg       | minecraft:silverfish       | 0x006E6E6E (   7237230) | 0x00303030 (   3158064) |
+| minecraft:skeleton_horse_spawn_egg   | minecraft:skeleton_horse   | 0x0068684F (   6842447) | 0x00E5E5D8 (  15066584) |
+| minecraft:skeleton_spawn_egg         | minecraft:skeleton         | 0x00C1C1C1 (  12698049) | 0x00494949 (   4802889) |
+| minecraft:slime_spawn_egg            | minecraft:slime            | 0x0051A03E (   5349438) | 0x007EBF6E (   8306542) |
+| minecraft:spider_spawn_egg           | minecraft:spider           | 0x00342D27 (   3419431) | 0x00A80E0E (  11013646) |
+| minecraft:squid_spawn_egg            | minecraft:squid            | 0x00223B4D (   2243405) | 0x00708899 (   7375001) |
+| minecraft:stray_spawn_egg            | minecraft:stray            | 0x00617677 (   6387319) | 0x00DDEAEA (  14543594) |
+| minecraft:strider_spawn_egg          | minecraft:strider          | 0x009C3436 (  10236982) | 0x004D494D (   5065037) |
+| minecraft:tadpole_spawn_egg          | minecraft:tadpole          | 0x006D533D (   7164733) | 0x00160A00 (   1444352) |
+| minecraft:trader_llama_spawn_egg     | minecraft:trader_llama     | 0x00EAA430 (  15377456) | 0x00456296 (   4547222) |
+| minecraft:tropical_fish_spawn_egg    | minecraft:tropical_fish    | 0x00EF6915 (  15690005) | 0x00FFF9EF (  16775663) |
+| minecraft:turtle_spawn_egg           | minecraft:turtle           | 0x00E7E7E7 (  15198183) | 0x0000AFAF (     44975) |
+| minecraft:vex_spawn_egg              | minecraft:vex              | 0x007A90A4 (   8032420) | 0x00E8EDF1 (  15265265) |
+| minecraft:villager_spawn_egg         | minecraft:villager         | 0x00563C33 (   5651507) | 0x00BD8B72 (  12422002) |
+| minecraft:vindicator_spawn_egg       | minecraft:vindicator       | 0x00959B9B (   9804699) | 0x00275E61 (   2580065) |
+| minecraft:wandering_trader_spawn_egg | minecraft:wandering_trader | 0x00456296 (   4547222) | 0x00EAA430 (  15377456) |
+| minecraft:warden_spawn_egg           | minecraft:warden           | 0x000F4649 (   1001033) | 0x0039D6E0 (   3790560) |
+| minecraft:witch_spawn_egg            | minecraft:witch            | 0x00340000 (   3407872) | 0x0051A03E (   5349438) |
+| minecraft:wither_skeleton_spawn_egg  | minecraft:wither_skeleton  | 0x00141414 (   1315860) | 0x00474D4D (   4672845) |
+| minecraft:wolf_spawn_egg             | minecraft:wolf             | 0x00D7D3D3 (  14144467) | 0x00CEAF96 (  13545366) |
+| minecraft:zoglin_spawn_egg           | minecraft:zoglin           | 0x00C66E55 (  13004373) | 0x00E6E6E6 (  15132390) |
+| minecraft:zombie_horse_spawn_egg     | minecraft:zombie_horse     | 0x00315234 (   3232308) | 0x0097C284 (   9945732) |
+| minecraft:zombie_spawn_egg           | minecraft:zombie           | 0x0000AFAF (     44975) | 0x00799C65 (   7969893) |
+| minecraft:zombie_villager_spawn_egg  | minecraft:zombie_villager  | 0x00563C33 (   5651507) | 0x00799C65 (   7969893) |
+| minecraft:zombified_piglin_spawn_egg | minecraft:zombified_piglin | 0x00EA9393 (  15373203) | 0x004C7129 (   5009705) |
++--------------------------------------+----------------------------+-------------------------+-------------------------+
+| Registry Name                        | Spawned ID                 | Egg primary color       | Egg secondary color     |
++--------------------------------------+----------------------------+-------------------------+-------------------------+

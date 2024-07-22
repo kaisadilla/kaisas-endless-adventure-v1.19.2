@@ -1,0 +1,8 @@
++------------------+
+| Registry name    |
++------------------+
+| minecraft:block  |
+| minecraft:entity |
++------------------+
+| Registry name    |
++------------------+

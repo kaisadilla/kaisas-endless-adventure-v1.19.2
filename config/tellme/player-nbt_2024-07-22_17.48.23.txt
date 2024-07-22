@@ -1,0 +1,239 @@
+Entity: Kaisadiiia [registry name: minecraft:player] (entityId: 130)
+Entity class: net.minecraft.server.level.ServerPlayer
+
+
+[TAG_Compound (43 values)] 
+{
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Short] "Air": 300
+    [TAG_List (10 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 4.0
+            [TAG_String] "Name": "minecraft:generic.attack_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.luck"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 1.0
+            [TAG_String] "Name": "minecraft:generic.attack_damage"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.knockback_resistance"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "forge:step_height_addition"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.armor"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.10000000149011612
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 4.5
+            [TAG_String] "Name": "forge:reach_distance"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 6.0
+            [TAG_String] "Name": "minecraft:generic.max_health"
+        }
+    ]
+    [TAG_List (1 values of type TAG_Compound)] "BlueprintTrackedData"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Byte] "Boolean": 0
+            [TAG_String] "Id": "savage_and_ravage:invisible_due_to_mask"
+        }
+    ]
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_Int] "DataVersion": 3120
+    [TAG_Short] "DeathTime": 0
+    [TAG_String] "Dimension": "minecraft:overworld"
+    [TAG_List (0 values of type ?)] "EnderItems"
+    [
+    ]
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -20
+    [TAG_Compound (1 values)] "ForgeCaps"
+    {
+        [TAG_Compound (0 values)] "tconstruct:persistent_data"
+        {
+        }
+    }
+    [TAG_Compound (2 values)] "ForgeData"
+    {
+        [TAG_Compound (1 values)] "PlayerPersisted"
+        {
+            [TAG_Compound (1 values)] "BalmData"
+            {
+                [TAG_Compound (1 values)] "WaystonesData"
+                {
+                    [TAG_List (0 values of type ?)] "Waystones"
+                    [
+                    ]
+                }
+            }
+        }
+        [TAG_Byte] "quark:trying_crawl": 0
+    }
+    [TAG_Float] "Health": 6.0
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_List (6 values of type TAG_Compound)] "Inventory"
+    [
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 0
+            [TAG_String] "id": "minecraft:glow_lichen"
+        }
+        [TAG_Compound (4 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 1
+            [TAG_String] "id": "simplyswords:runic_longsword"
+            [TAG_Compound (1 values)] "tag"
+            {
+                [TAG_Int] "Damage": 0
+            }
+        }
+        [TAG_Compound (4 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 2
+            [TAG_String] "id": "simplyswords:iron_longsword"
+            [TAG_Compound (1 values)] "tag"
+            {
+                [TAG_Int] "Damage": 0
+            }
+        }
+        [TAG_Compound (4 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 3
+            [TAG_String] "id": "simplyswords:runic_sai"
+            [TAG_Compound (1 values)] "tag"
+            {
+                [TAG_Int] "Damage": 0
+            }
+        }
+        [TAG_Compound (4 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 4
+            [TAG_String] "id": "simplyswords:runic_chakram"
+            [TAG_Compound (1 values)] "tag"
+            {
+                [TAG_Int] "Damage": 0
+            }
+        }
+        [TAG_Compound (4 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 5
+            [TAG_String] "id": "quark:seed_pouch"
+            [TAG_Compound (2 values)] "tag"
+            {
+                [TAG_Int] "itemCount": 640
+                [TAG_Compound (2 values)] "storedItem"
+                {
+                    [TAG_Byte] "Count": 1
+                    [TAG_String] "id": "minecraft:potato"
+                }
+            }
+        }
+    ]
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_Byte] "OnGround": 1
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : -17.91113609704524
+        [TAG_Double] : 14.0
+        [TAG_Double] : -296.37298867852724
+    ]
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 7.653114
+        [TAG_Float] : 24.300182
+    ]
+    [TAG_Int] "Score": 0
+    [TAG_Int] "SelectedItemSlot": 6
+    [TAG_Short] "SleepTimer": 0
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0xC6D0974B (-959408309)
+          1: 0x7856499D (2018920861)
+          2: 0xB2770EF9 (-1300820231)
+          3: 0x3F852FBB (1065693115)
+    ]
+    [TAG_Int] "XpLevel": 0
+    [TAG_Float] "XpP": 0.0
+    [TAG_Int] "XpSeed": -1213054252
+    [TAG_Int] "XpTotal": 0
+    [TAG_Compound (7 values)] "abilities"
+    {
+        [TAG_Float] "flySpeed": 0.05
+        [TAG_Byte] "flying": 0
+        [TAG_Byte] "instabuild": 1
+        [TAG_Byte] "invulnerable": 1
+        [TAG_Byte] "mayBuild": 1
+        [TAG_Byte] "mayfly": 1
+        [TAG_Float] "walkSpeed": 0.1
+    }
+    [TAG_Float] "foodExhaustionLevel": 0.0
+    [TAG_Int] "foodLevel": 20
+    [TAG_Float] "foodSaturationLevel": 0.0
+    [TAG_Int] "foodTickTimer": 0
+    [TAG_Int] "playerGameType": 1
+    [TAG_Compound (0 values)] "recipeBook"
+    {
+    }
+    [TAG_Byte] "seenCredits": 0
+    [TAG_Compound (2 values)] "sol_food_data"
+    {
+        [TAG_Int] "count": 0
+        [TAG_Int] "max_slots": 3
+    }
+    [TAG_Compound (3 values)] "warden_spawn_tracker"
+    {
+        [TAG_Int] "cooldown_ticks": 0
+        [TAG_Int] "ticks_since_last_warning": 7380
+        [TAG_Int] "warning_level": 0
+    }
+}

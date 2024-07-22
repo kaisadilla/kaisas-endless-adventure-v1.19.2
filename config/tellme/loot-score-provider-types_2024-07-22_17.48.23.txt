@@ -1,0 +1,8 @@
++-------------------+
+| Registry name     |
++-------------------+
+| minecraft:context |
+| minecraft:fixed   |
++-------------------+
+| Registry name     |
++-------------------+

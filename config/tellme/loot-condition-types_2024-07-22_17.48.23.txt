@@ -1,0 +1,45 @@
++--------------------------------------+
+| Registry name                        |
++--------------------------------------+
+| autumnity:config                     |
+| blueprint:config                     |
+| blueprint:raid_check                 |
+| blueprint:random_difficulty_chance   |
+| clayworks:config                     |
+| cofh_core:flag                       |
+| forge:can_tool_perform_action        |
+| forge:loot_table_id                  |
+| lootr:loot_count                     |
+| mantle:block_tag                     |
+| minecraft:alternative                |
+| minecraft:block_state_property       |
+| minecraft:damage_source_properties   |
+| minecraft:entity_properties          |
+| minecraft:entity_scores              |
+| minecraft:inverted                   |
+| minecraft:killed_by_player           |
+| minecraft:location_check             |
+| minecraft:match_tool                 |
+| minecraft:random_chance              |
+| minecraft:random_chance_with_looting |
+| minecraft:reference                  |
+| minecraft:survives_explosion         |
+| minecraft:table_bonus                |
+| minecraft:time_check                 |
+| minecraft:value_check                |
+| minecraft:weather_check              |
+| moonlight:iconditions                |
+| moonlight:loot_table_id_pattern      |
+| quark:flag                           |
+| quark:in_biome                       |
+| savage_and_ravage:config             |
+| tconstruct:block_or_entity           |
+| tconstruct:config                    |
+| tconstruct:has_chrysophilite         |
+| tconstruct:has_modifier              |
+| tconstruct:tag_not_empty             |
+| thermal:flag                         |
+| upgrade_aquatic:config               |
++--------------------------------------+
+| Registry name                        |
++--------------------------------------+
