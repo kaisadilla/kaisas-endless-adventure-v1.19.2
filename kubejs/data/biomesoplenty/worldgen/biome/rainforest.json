@@ -6,14 +6,14 @@
             "minecraft:canyon"
         ]
     },
-    "downfall": 2.0,
+    "downfall": 2,
     "effects": {
         "fog_color": 12638463,
         "foliage_color": 8970560,
         "grass_color": 11002176,
         "mood_sound": {
             "block_search_extent": 8,
-            "offset": 2.0,
+            "offset": 2,
             "sound": "minecraft:ambient.cave",
             "tick_delay": 6000
         },
@@ -43,6 +43,8 @@
         [],
         [],
         [
+            "kaisascore:rock_marble",
+            
             "kaisascore:ore_coal",
             "kaisascore:ore_coal_surface",
             "kaisascore:ore_copper",
@@ -53,7 +55,6 @@
             "kaisascore:ore_gold_stone_layer",
             "kaisascore:ore_gold_deepslate_layer",
             "kaisascore:ore_diamond",
-
             "minecraft:ore_dirt",
             "minecraft:ore_gravel",
             "minecraft:ore_granite_upper",
@@ -63,9 +64,7 @@
             "minecraft:ore_andesite_upper",
             "minecraft:ore_andesite_lower",
             "minecraft:ore_tuff",
-            
             "minecraft:underwater_magma",
-
             "biomesoplenty:disk_orange_sand"
         ],
         [],

@@ -134,3 +134,4 @@
 !autumnity:pumpkin_fields,
 !quark:glimmering_weald,
 !desolation:charred_forest,
+!biomesoplenty:wasteland_steppe,

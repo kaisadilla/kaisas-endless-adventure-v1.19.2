@@ -10,7 +10,7 @@
 	// Extra speed given when your hearts are full (0 to disable)
 	"speedBoost": 0.20000000298023224,
 	// Number of hearts to start with
-	"startingHealth": 3,
+	"startingHealth": 5,
 	// Number of food slots (range 2-5, default 3)
 	"maxSlots": 3,
 	// Percentage remaining before you can eat again

@@ -1,10 +1,11 @@
 {
 	"itemGroup.morecreativetabs.terrain_blocks": "Terrain Blocks",
 	"itemGroup.morecreativetabs.stone_blocks": "Stone Blocks",
+	"itemGroup.morecreativetabs.wood_blocks": "Wooden Blocks",
+	"itemGroup.morecreativetabs.copper_decoration": "Copper Decoration",
+	"itemGroup.morecreativetabs.light_sources": "Light",
 	"itemGroup.morecreativetabs.ore_tab": "Ores",
 	"itemGroup.morecreativetabs.other_ore_tab": "Other Minerals",
-	"itemGroup.morecreativetabs.light_sources": "Light",
-	"itemGroup.morecreativetabs.copper_decoration": "Copper Decoration",
 	"itemGroup.morecreativetabs.crafting_stations": "Crafting Stations",
 	"itemGroup.morecreativetabs.artifacts": "Artifacts",
 	"itemGroup.morecreativetabs.trash_bin": "Ignore this tab"

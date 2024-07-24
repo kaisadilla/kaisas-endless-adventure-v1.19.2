@@ -543,7 +543,7 @@
 	"Pig Litters" = true
 	"Campfires Boost Elytra" = true
 	"Dyeable Item Frames" = true
-	"Slabs To Blocks" = true
+	"Slabs To Blocks" = false
 	"Map Washing" = true
 	"Enhanced Ladders" = true
 	"Reacharound Placing" = true

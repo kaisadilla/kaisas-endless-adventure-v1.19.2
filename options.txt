@@ -117,9 +117,9 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
-key_iris.keybind.reload:key.keyboard.r
-key_iris.keybind.toggleShaders:key.keyboard.k
-key_iris.keybind.shaderPackSelection:key.keyboard.o
+key_iris.keybind.reload:key.keyboard.r:CONTROL
+key_iris.keybind.toggleShaders:key.keyboard.k:CONTROL
+key_iris.keybind.shaderPackSelection:key.keyboard.o:CONTROL
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.ftbquests.quests:key.keyboard.unknown
@@ -203,7 +203,7 @@ key_supplementaries.keybind.quiver:key.keyboard.v
 key_key.entityculling.toggle:key.keyboard.unknown
 key_ride_along.key.ride:key.keyboard.left.control
 soundCategory_master:1.0
-soundCategory_music:0.11971831
+soundCategory_music:0.3028169
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0
