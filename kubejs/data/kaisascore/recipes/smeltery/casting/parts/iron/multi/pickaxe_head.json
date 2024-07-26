@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/pickaxe_head"
+    },
+    "cast_consumed": false,
+    "cooling_time": 60,
+    "fluid": {
+        "tag": "forge:molten_iron",
+        "amount": 270
+    },
+    "result": "kaisascore:iron_pickaxe_head"
+}

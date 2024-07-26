@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/axe_head"
+    },
+    "cast_consumed": true,
+    "cooling_time": 80,
+    "fluid": {
+        "tag": "forge:molten_titanium",
+        "amount": 360
+    },
+    "result": "kaisascore:titanium_axe_head"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/battle_axe_head"
+    },
+    "cast_consumed": true,
+    "cooling_time": 160,
+    "fluid": {
+        "tag": "forge:molten_tin",
+        "amount": 720
+    },
+    "result": "kaisascore:tin_battle_axe_head"
+}

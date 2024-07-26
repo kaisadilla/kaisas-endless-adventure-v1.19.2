@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/thin_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_copper",
+        "amount": 180
+    },
+    "result": "kaisascore:copper_thin_blade"
+}

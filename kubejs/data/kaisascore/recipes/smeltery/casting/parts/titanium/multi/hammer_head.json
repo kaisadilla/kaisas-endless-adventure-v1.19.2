@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/hammer_head"
+    },
+    "cast_consumed": false,
+    "cooling_time": 180,
+    "fluid": {
+        "tag": "forge:molten_titanium",
+        "amount": 810
+    },
+    "result": "kaisascore:titanium_hammer_head"
+}

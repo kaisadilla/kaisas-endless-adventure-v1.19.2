@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/bow_grip"
+    },
+    "cast_consumed": false,
+    "cooling_time": 20,
+    "fluid": {
+        "tag": "forge:molten_steel",
+        "amount": 90
+    },
+    "result": "kaisascore:steel_bow_grip"
+}

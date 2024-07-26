@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/sai_prongs"
+    },
+    "cast_consumed": true,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_titanium",
+        "amount": 180
+    },
+    "result": "kaisascore:titanium_sai_prongs"
+}

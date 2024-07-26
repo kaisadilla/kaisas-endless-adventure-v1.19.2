@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/short_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 20,
+    "fluid": {
+        "tag": "forge:molten_electrum",
+        "amount": 90
+    },
+    "result": "kaisascore:electrum_short_blade"
+}

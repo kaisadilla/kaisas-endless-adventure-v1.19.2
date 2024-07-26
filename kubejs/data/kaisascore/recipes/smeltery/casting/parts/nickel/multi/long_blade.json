@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/long_blade"
+    },
+    "cast_consumed": false,
+    "cooling_time": 80,
+    "fluid": {
+        "tag": "forge:molten_nickel",
+        "amount": 360
+    },
+    "result": "kaisascore:nickel_long_blade"
+}

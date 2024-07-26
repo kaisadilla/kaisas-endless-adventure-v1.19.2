@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/sai_prongs"
+    },
+    "cast_consumed": false,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_platinum",
+        "amount": 180
+    },
+    "result": "kaisascore:platinum_sai_prongs"
+}

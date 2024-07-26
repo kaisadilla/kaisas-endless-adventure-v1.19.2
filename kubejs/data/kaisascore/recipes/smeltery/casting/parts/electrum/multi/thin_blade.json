@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/thin_blade"
+    },
+    "cast_consumed": false,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_electrum",
+        "amount": 180
+    },
+    "result": "kaisascore:electrum_thin_blade"
+}

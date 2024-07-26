@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/battle_axe_head"
+    },
+    "cast_consumed": false,
+    "cooling_time": 160,
+    "fluid": {
+        "tag": "forge:molten_copper",
+        "amount": 720
+    },
+    "result": "kaisascore:copper_battle_axe_head"
+}

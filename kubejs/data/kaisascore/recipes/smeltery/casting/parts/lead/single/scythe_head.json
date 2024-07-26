@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/scythe_head"
+    },
+    "cast_consumed": true,
+    "cooling_time": 80,
+    "fluid": {
+        "tag": "forge:molten_lead",
+        "amount": 360
+    },
+    "result": "kaisascore:lead_scythe_head"
+}

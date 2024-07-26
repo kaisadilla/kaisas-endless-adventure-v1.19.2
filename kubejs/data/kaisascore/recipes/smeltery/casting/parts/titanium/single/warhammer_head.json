@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/warhammer_head"
+    },
+    "cast_consumed": true,
+    "cooling_time": 280,
+    "fluid": {
+        "tag": "forge:molten_titanium",
+        "amount": 1260
+    },
+    "result": "kaisascore:titanium_warhammer_head"
+}

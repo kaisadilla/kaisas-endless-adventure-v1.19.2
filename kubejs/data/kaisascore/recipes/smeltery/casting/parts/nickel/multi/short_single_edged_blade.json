@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/short_single_edged_blade"
+    },
+    "cast_consumed": false,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_nickel",
+        "amount": 180
+    },
+    "result": "kaisascore:nickel_short_single_edged_blade"
+}

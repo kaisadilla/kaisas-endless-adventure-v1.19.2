@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/hoe_head"
+    },
+    "cast_consumed": false,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_lead",
+        "amount": 180
+    },
+    "result": "kaisascore:lead_hoe_head"
+}

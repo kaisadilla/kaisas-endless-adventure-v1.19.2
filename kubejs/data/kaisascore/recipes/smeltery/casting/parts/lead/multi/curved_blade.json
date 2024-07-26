@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/curved_blade"
+    },
+    "cast_consumed": false,
+    "cooling_time": 100,
+    "fluid": {
+        "tag": "forge:molten_lead",
+        "amount": 450
+    },
+    "result": "kaisascore:lead_curved_blade"
+}

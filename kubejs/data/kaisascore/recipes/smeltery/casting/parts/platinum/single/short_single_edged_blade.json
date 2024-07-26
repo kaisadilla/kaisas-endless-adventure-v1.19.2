@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/short_single_edged_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_platinum",
+        "amount": 180
+    },
+    "result": "kaisascore:platinum_short_single_edged_blade"
+}

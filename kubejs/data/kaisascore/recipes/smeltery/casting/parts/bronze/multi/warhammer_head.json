@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/warhammer_head"
+    },
+    "cast_consumed": false,
+    "cooling_time": 280,
+    "fluid": {
+        "tag": "forge:molten_bronze",
+        "amount": 1260
+    },
+    "result": "kaisascore:bronze_warhammer_head"
+}

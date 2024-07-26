@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/long_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 80,
+    "fluid": {
+        "tag": "forge:molten_bronze",
+        "amount": 360
+    },
+    "result": "kaisascore:bronze_long_blade"
+}

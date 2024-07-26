@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/bow_grip"
+    },
+    "cast_consumed": true,
+    "cooling_time": 20,
+    "fluid": {
+        "tag": "forge:molten_titanium",
+        "amount": 90
+    },
+    "result": "kaisascore:titanium_bow_grip"
+}

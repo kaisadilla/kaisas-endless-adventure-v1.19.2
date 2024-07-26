@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/multi_use/rapier_hilt"
+    },
+    "cast_consumed": false,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_tin",
+        "amount": 180
+    },
+    "result": "kaisascore:tin_rapier_hilt"
+}

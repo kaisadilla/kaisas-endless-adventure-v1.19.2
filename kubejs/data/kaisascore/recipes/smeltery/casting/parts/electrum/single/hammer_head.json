@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/hammer_head"
+    },
+    "cast_consumed": true,
+    "cooling_time": 180,
+    "fluid": {
+        "tag": "forge:molten_electrum",
+        "amount": 810
+    },
+    "result": "kaisascore:electrum_hammer_head"
+}

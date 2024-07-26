@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 40,
+    "fluid": {
+        "tag": "forge:molten_steel",
+        "amount": 180
+    },
+    "result": "kaisascore:steel_blade"
+}

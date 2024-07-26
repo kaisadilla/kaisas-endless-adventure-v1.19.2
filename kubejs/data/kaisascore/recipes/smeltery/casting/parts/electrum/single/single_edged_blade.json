@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/single_edged_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 60,
+    "fluid": {
+        "tag": "forge:molten_electrum",
+        "amount": 270
+    },
+    "result": "kaisascore:electrum_single_edged_blade"
+}

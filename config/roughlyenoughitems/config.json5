@@ -231,7 +231,11 @@
 					"roughlyenoughresources:loot_category",
 					"roughlyenoughresources:entity_loot_category",
 					"enchdesc:compatible_items",
-					"clayworks:baking"
+					"clayworks:baking",
+					"quark:influence",
+					"kaisascore:workbench",
+					"corail_woodcutter:woodcutting",
+					"alexsmobs:capsid"
 				],
 				"hiddenCategories": []
 			}

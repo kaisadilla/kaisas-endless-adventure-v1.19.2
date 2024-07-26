@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:casting_table",
+    "cast": {
+        "tag": "kaisascore:casts/single_use/curved_blade"
+    },
+    "cast_consumed": true,
+    "cooling_time": 100,
+    "fluid": {
+        "tag": "forge:molten_tin",
+        "amount": 450
+    },
+    "result": "kaisascore:tin_curved_blade"
+}
