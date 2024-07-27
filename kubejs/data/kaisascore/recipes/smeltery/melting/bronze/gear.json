@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/bronze"
+    },
+    "temperature": 602,
+    "time": 243,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_bronze"
+    }
+}

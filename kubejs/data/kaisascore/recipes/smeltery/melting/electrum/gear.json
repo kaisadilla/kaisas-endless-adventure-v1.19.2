@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/electrum"
+    },
+    "temperature": 1131,
+    "time": 200,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_electrum"
+    }
+}

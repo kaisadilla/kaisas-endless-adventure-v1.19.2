@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:ingots/tin"
+    },
+    "temperature": 280,
+    "time": 21,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_tin"
+    }
+}

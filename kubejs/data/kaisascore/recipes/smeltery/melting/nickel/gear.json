@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/nickel"
+    },
+    "temperature": 1104,
+    "time": 350,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_nickel"
+    }
+}

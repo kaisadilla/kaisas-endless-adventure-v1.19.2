@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/tin"
+    },
+    "temperature": 280,
+    "time": 11,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_tin"
+    }
+}

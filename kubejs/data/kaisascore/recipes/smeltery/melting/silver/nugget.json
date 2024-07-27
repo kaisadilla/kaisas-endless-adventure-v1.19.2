@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/silver"
+    },
+    "temperature": 1073,
+    "time": 24,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_silver"
+    }
+}

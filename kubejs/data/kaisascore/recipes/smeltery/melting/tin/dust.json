@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:dusts/tin"
+    },
+    "temperature": 280,
+    "time": 13,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_tin"
+    }
+}

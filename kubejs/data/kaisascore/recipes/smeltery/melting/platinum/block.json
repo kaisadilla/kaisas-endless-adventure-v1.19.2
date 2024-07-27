@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/platinum"
+    },
+    "temperature": 1717,
+    "time": 544,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_platinum"
+    }
+}

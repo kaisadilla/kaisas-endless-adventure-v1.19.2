@@ -13,10 +13,25 @@ ServerEvents.tags('item', evt => {
     evt.add('kaisascore:crafting_metal_ingot', CRAFTING_METAL_INGOTS);
     evt.add('kaisascore:crafting_metal_gear', CRAFTING_METAL_GEARS);
 
-    evt.add('minecraft:sculk_replaceable', [
-        "kaisascore:marble",
+    // copper only drops one raw stone in this modpack.
+    evt.remove('forge:ore_rates/dense', [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore",
     ]);
-    evt.add('minecraft:sculk_replaceable_world_gen', [
-        "kaisascore:marble",
+    evt.add('forge:ore_rates/singular', [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore",
+    ]);
+})
+
+ServerEvents.tags('block', evt => {
+    // copper only drops one raw stone in this modpack.
+    evt.remove('forge:ore_rates/dense', [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore",
+    ]);
+    evt.add('forge:ore_rates/singular', [
+        "minecraft:copper_ore",
+        "minecraft:deepslate_copper_ore",
     ]);
 })

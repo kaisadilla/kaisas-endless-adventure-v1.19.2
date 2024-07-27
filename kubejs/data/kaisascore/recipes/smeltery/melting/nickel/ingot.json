@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:ingots/nickel"
+    },
+    "temperature": 1104,
+    "time": 70,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_nickel"
+    }
+}

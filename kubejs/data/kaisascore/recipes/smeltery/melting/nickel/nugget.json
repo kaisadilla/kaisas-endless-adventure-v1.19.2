@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/nickel"
+    },
+    "temperature": 1104,
+    "time": 35,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_nickel"
+    }
+}

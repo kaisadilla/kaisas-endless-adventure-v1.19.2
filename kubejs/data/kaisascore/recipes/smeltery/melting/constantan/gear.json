@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/constantan"
+    },
+    "temperature": 843,
+    "time": 290,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_constantan"
+    }
+}

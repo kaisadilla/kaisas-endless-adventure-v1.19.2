@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/electrum"
+    },
+    "temperature": 1131,
+    "time": 240,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_electrum"
+    }
+}

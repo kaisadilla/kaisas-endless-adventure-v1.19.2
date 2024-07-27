@@ -1,0 +1,35 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": [
+        {
+            "tag": "forge:storage_blocks/copper"
+        },
+        {
+            "item": "minecraft:exposed_copper"
+        },
+        {
+            "item": "minecraft:weathered_copper"
+        },
+        {
+            "item": "minecraft:oxidized_copper"
+        },
+        {
+            "item": "minecraft:waxed_copper_block"
+        },
+        {
+            "item": "minecraft:waxed_exposed_copper"
+        },
+        {
+            "item": "minecraft:waxed_weathered_copper"
+        },
+        {
+            "item": "minecraft:waxed_oxidized_copper"
+        }
+    ],
+    "temperature": 671,
+    "time": 200,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_copper"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/platinum"
+    },
+    "temperature": 1717,
+    "time": 45,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_platinum"
+    }
+}

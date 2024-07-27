@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/constantan"
+    },
+    "temperature": 843,
+    "time": 348,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_constantan"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:dusts/lead"
+    },
+    "temperature": 430,
+    "time": 27,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_lead"
+    }
+}

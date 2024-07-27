@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/electrum"
+    },
+    "temperature": 1131,
+    "time": 20,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_electrum"
+    }
+}

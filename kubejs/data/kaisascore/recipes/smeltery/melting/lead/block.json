@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/lead"
+    },
+    "temperature": 430,
+    "time": 272,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_lead"
+    }
+}

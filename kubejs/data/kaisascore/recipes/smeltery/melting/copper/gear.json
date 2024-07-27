@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/copper"
+    },
+    "temperature": 671,
+    "time": 167,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_copper"
+    }
+}

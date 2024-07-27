@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:ingots/bronze"
+    },
+    "temperature": 602,
+    "time": 49,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_bronze"
+    }
+}

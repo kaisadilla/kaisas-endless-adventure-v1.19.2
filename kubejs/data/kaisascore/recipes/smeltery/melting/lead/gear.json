@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:gears/lead"
+    },
+    "temperature": 430,
+    "time": 227,
+    "result": {
+        "amount": 450,
+        "fluid": "tconstruct:molten_lead"
+    }
+}

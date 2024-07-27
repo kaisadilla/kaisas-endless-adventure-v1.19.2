@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/iron"
+    },
+    "temperature": 1016,
+    "time": 40,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_iron"
+    }
+}

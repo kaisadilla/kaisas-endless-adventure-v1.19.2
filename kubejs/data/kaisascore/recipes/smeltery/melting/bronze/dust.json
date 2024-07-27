@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:dusts/bronze"
+    },
+    "temperature": 602,
+    "time": 29,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_bronze"
+    }
+}

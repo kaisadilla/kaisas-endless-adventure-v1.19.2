@@ -1,0 +1,19 @@
+{
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+        "tag": "forge:raw_materials/copper"
+    },
+    "temperature": 671,
+    "time": 100,
+    "rate": "metal",
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_copper"
+    },
+    "byproducts": [
+        {
+            "amount": 6,
+            "fluid": "tconstruct:molten_zinc"
+        }
+    ]
+}

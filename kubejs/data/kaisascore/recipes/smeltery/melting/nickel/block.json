@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/nickel"
+    },
+    "temperature": 1104,
+    "time": 420,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_nickel"
+    }
+}

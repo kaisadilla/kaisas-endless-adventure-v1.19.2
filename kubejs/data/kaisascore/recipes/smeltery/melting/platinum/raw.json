@@ -1,0 +1,13 @@
+{
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+        "tag": "forge:raw_materials/platinum"
+    },
+    "temperature": 1717,
+    "time": 272,
+    "rate": "metal",
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_platinum"
+    }
+}

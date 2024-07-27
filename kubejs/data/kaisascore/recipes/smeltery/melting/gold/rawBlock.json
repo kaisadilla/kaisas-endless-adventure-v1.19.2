@@ -1,0 +1,19 @@
+{
+    "type": "tconstruct:ore_melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/raw_gold"
+    },
+    "temperature": 1236,
+    "time": 576,
+    "rate": "metal",
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_gold"
+    },
+    "byproducts": [
+        {
+            "amount": 90,
+            "fluid": "tconstruct:molten_silver"
+        }
+    ]
+}

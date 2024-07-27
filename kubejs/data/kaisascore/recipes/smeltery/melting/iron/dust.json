@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:dusts/iron"
+    },
+    "temperature": 1016,
+    "time": 48,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_iron"
+    }
+}

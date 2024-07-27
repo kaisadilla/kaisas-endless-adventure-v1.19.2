@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:dusts/invar"
+    },
+    "temperature": 1082,
+    "time": 44,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_invar"
+    }
+}

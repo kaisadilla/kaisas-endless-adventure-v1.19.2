@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:storage_blocks/tin"
+    },
+    "temperature": 280,
+    "time": 128,
+    "result": {
+        "amount": 810,
+        "fluid": "tconstruct:molten_tin"
+    }
+}

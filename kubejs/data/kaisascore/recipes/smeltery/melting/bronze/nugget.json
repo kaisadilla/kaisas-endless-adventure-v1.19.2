@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:nuggets/bronze"
+    },
+    "temperature": 602,
+    "time": 24,
+    "result": {
+        "amount": 10,
+        "fluid": "tconstruct:molten_bronze"
+    }
+}

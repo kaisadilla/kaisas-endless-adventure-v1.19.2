@@ -1,0 +1,12 @@
+{
+    "type": "tconstruct:melting",
+    "ingredient": {
+        "tag": "forge:ingots/platinum"
+    },
+    "temperature": 1717,
+    "time": 91,
+    "result": {
+        "amount": 90,
+        "fluid": "tconstruct:molten_platinum"
+    }
+}
