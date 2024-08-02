@@ -4,7 +4,7 @@
   "bayou_enabled": true,
   "bog_enabled": true,
   "cherry_blossom_grove_enabled": true,
-  "clover_patch_enabled": true,
+  "clover_patch_enabled": false,
   "cold_desert_enabled": true,
   "coniferous_forest_enabled": true,
   "crag_enabled": true,
@@ -35,7 +35,7 @@
   "old_growth_dead_forest_enabled": true,
   "old_growth_woodland_enabled": true,
   "ominous_woods_enabled": true,
-  "orchard_enabled": true,
+  "orchard_enabled": false,
   "origin_valley_enabled": true,
   "pasture_enabled": true,
   "prairie_enabled": true,
@@ -62,6 +62,6 @@
   "wetland_enabled": true,
   "withered_abyss_enabled": true,
   "wooded_scrubland_enabled": true,
-  "wooded_wasteland_enabled": true,
+  "wooded_wasteland_enabled": false,
   "woodland_enabled": true
 }

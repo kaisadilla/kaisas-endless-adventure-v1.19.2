@@ -23,34 +23,39 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getXp |  |  | int | ✘ |
 | getBlock |  |  | BlockContainerJS | ✘ |
+| getXp |  |  | int | ✘ |
+| getEntity |  |  | Player | ✘ |
 | setXp | int |  | void | ✘ |
-| getEntity |  |  | Entity | ✘ |
-| getPlayer |  |  | Player | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
+| getPlayer |  |  | Player | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
+
+- `BlockContainerJS getBlock()`
+```
+The block that was broken.
+```
 
 - `int getXp()`
 ```
 The experience dropped by the block. Always `0` on Fabric.
 ```
 
-- `BlockContainerJS getBlock()`
+- `Player getEntity()`
 ```
-The block that was broken.
+The player that broke the block.
 ```
 
 - `void setXp(int var0)`
@@ -60,11 +65,6 @@ The block that was broken.
 
 ```
 Sets the experience dropped by the block. Only works on Forge.
-```
-
-- `Entity getEntity()`
-```
-The player that broke the block.
 ```
 
 - `void addGameStage(String var0)`
@@ -92,24 +92,6 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
 ```
 
 - `Object success()`
@@ -146,6 +128,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

@@ -16,7 +16,7 @@
     "rate": "metal",
     "result": {
         "amount": 100,
-        "fluid": "tconstruct:molten_titanium"
+        "fluid": "kaisascore:molten_titanium"
     },
     "byproducts": [
         {

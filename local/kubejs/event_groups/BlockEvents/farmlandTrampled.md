@@ -24,17 +24,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | getBlock |  |  | BlockContainerJS | ✘ |
-| getLevel |  |  | Level | ✘ |
 | getDistance |  |  | float | ✘ |
 | getEntity |  |  | Entity | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getPlayer |  |  | Player | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -42,11 +42,6 @@ Note: Even if no fields are listed above, some methods are still available as fi
 - `BlockContainerJS getBlock()`
 ```
 The farmland block.
-```
-
-- `Level getLevel()`
-```
-The level that the farmland and the entity are in.
 ```
 
 - `float getDistance()`
@@ -59,22 +54,9 @@ The distance of the entity from the block.
 The entity that is attempting to trample the farmland.
 ```
 
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
+- `Level getLevel()`
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
+The level that the farmland and the entity are in.
 ```
 
 - `Object success()`
@@ -111,6 +93,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 

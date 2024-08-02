@@ -1,1 +1,43 @@
-[]
+[
+    {
+        "incontrol": true,
+        "mob": "minecraft:cow",
+        "seesky": true,
+        "result": "allow"
+    },
+    {
+        "incontrol": true,
+        "mob": "minecraft:silverfish",
+        "seesky": false,
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:silverfish",
+        "result": "allow"
+    },
+    {
+        "incontrol": true,
+        "mob": "minecraft:drowned",
+        "seesky": true,
+        "helditem": ["1=minecraft:trident", "1=minecraft:stone"],
+        "result": "allow"
+    },
+    {
+        "result": "deny"
+    },
+    {
+        "incontrol": true,
+        "seesky": true,
+        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet"],
+        "result": "allow"
+    },
+    {
+        "incontrol": false,
+        "structure": "minecraft:village",
+        "result": "allow"
+    },
+    {
+        "incontrol": false,
+        "result": "deny"
+    }
+]

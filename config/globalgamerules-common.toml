@@ -96,6 +96,12 @@
 		zombie_fisherman_spawn = true
 		#Non Vanilla gamerule: 'zombieLumberjackSpawn'
 		zombie_lumberjack_spawn = true
+		#Non Vanilla gamerule: 'gothicAnimalSpawnHeight'
+		#Range: > 0
+		gothic_animal_spawn_height = 62
+		#Non Vanilla gamerule: 'gothicAnimalSpawnRadius'
+		#Range: > 0
+		gothic_animal_spawn_radius = 160
 
 	[gamerules.player]
 		#Non Vanilla gamerule: 'companion:alwaysTeleportHorses'
@@ -115,7 +121,7 @@
 		#Whether the player should take damage when inside powder snow.
 		freeze_damage = true
 		#Whether the player should keep items and experience in their inventory after death .
-		keep_inventory = false
+		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = true
 		#Non Vanilla gamerule: 'petFriendlyFire'
@@ -130,6 +136,16 @@
 		spawn_radius = 10
 		#Whether players in spectator mode can generate chunks
 		spectators_generate_chunks = true
+		#Non Vanilla gamerule: 'buildingDamage'
+		building_damage = true
+		#Non Vanilla gamerule: 'endblobShieldKnockbackForPlayers'
+		endblob_shield_knockback_for_players = true
+		#Non Vanilla gamerule: 'floatingPouchCooldown'
+		#Range: > 0
+		floating_pouch_cooldown = 100
+		#Non Vanilla gamerule: 'teleportationAnchorCooldown'
+		#Range: > 0
+		teleportation_anchor_cooldown = 6000
 
 	[gamerules.mobs]
 		#Whether raids are disabled.
@@ -149,6 +165,12 @@
 		universal_anger = false
 		#Non Vanilla gamerule: 'zombiesinaBarrelSpawn'
 		zombiesina_barrel_spawn = true
+		#Non Vanilla gamerule: 'gothicAnimalAwakeRadius'
+		#Range: > 0
+		gothic_animal_awake_radius = 16
+		#Non Vanilla gamerule: 'shadowbeastAwakeRadius'
+		#Range: > 0
+		shadowbeast_awake_radius = 8
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
@@ -175,6 +197,14 @@
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
+		#Non Vanilla gamerule: 'generateGothicPlants'
+		generate_gothic_plants = true
+		#Non Vanilla gamerule: 'generateGothicStructures'
+		generate_gothic_structures = true
+		#Non Vanilla gamerule: 'doEndblobBounce'
+		do_endblob_bounce = true
+		#Non Vanilla gamerule: 'needTeleportationAnchor'
+		need_teleportation_anchor = true
 
 #Configs related to difficult changes
 [difficulty]

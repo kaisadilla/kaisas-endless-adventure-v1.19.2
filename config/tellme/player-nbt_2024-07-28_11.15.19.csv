@@ -1,0 +1,518 @@
+Entity: Kaisadiiia [registry name: minecraft:player] (entityId: 906574)
+Entity class: net.minecraft.server.level.ServerPlayer
+
+
+[TAG_Compound (49 values)] 
+{
+    [TAG_Float] "AbsorptionAmount": 0.0
+    [TAG_Short] "Air": 300
+    [TAG_List (8 values of type TAG_Compound)] "Attributes"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.knockback_resistance"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.10000000149011612
+            [TAG_String] "Name": "minecraft:generic.movement_speed"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 4.5
+            [TAG_String] "Name": "forge:reach_distance"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.luck"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "minecraft:generic.armor"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 10.0
+            [TAG_String] "Name": "minecraft:generic.max_health"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.0
+            [TAG_String] "Name": "forge:step_height_addition"
+        }
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Double] "Base": 0.08
+            [TAG_String] "Name": "forge:entity_gravity"
+        }
+    ]
+    [TAG_List (1 values of type TAG_Compound)] "BlueprintTrackedData"
+    [
+        [TAG_Compound (2 values)] 
+        {
+            [TAG_Byte] "Boolean": 0
+            [TAG_String] "Id": "savage_and_ravage:invisible_due_to_mask"
+        }
+    ]
+    [TAG_Compound (1 values)] "Brain"
+    {
+        [TAG_Compound (0 values)] "memories"
+        {
+        }
+    }
+    [TAG_Byte] "CanUpdate": 1
+    [TAG_Compound (0 values)] "CitadelData"
+    {
+    }
+    [TAG_Int] "DataVersion": 3120
+    [TAG_Short] "DeathTime": 0
+    [TAG_String] "Dimension": "minecraft:the_end"
+    [TAG_List (0 values of type ?)] "EnderItems"
+    [
+    ]
+    [TAG_Float] "FallDistance": 0.0
+    [TAG_Byte] "FallFlying": 0
+    [TAG_Short] "Fire": -20
+    [TAG_Compound (11 values)] "ForgeCaps"
+    {
+        [TAG_Compound (1 values)] "curios:inventory"
+        {
+            [TAG_List (6 values of type TAG_Compound)] "Curios"
+            [
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "curio"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 1
+                    }
+                }
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "back"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 1
+                    }
+                }
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "arrows"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 0
+                    }
+                }
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "quiver"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 1
+                    }
+                }
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "belt"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 1
+                    }
+                }
+                [TAG_Compound (2 values)] 
+                {
+                    [TAG_String] "Identifier": "charm"
+                    [TAG_Compound (6 values)] "StacksHandler"
+                    {
+                        [TAG_Compound (2 values)] "Cosmetics"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "HasCosmetic": 0
+                        [TAG_Compound (2 values)] "Renders"
+                        {
+                            [TAG_List (1 values of type TAG_Compound)] "Renders"
+                            [
+                                [TAG_Compound (2 values)] 
+                                {
+                                    [TAG_Byte] "Render": 1
+                                    [TAG_Int] "Slot": 0
+                                }
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Int] "SavedBaseSize": 1
+                        [TAG_Compound (2 values)] "Stacks"
+                        {
+                            [TAG_List (0 values of type ?)] "Items"
+                            [
+                            ]
+                            [TAG_Int] "Size": 1
+                        }
+                        [TAG_Byte] "Visible": 1
+                    }
+                }
+            ]
+        }
+        [TAG_Compound (0 values)] "mowziesmobs:ability"
+        {
+        }
+        [TAG_Compound (0 values)] "mowziesmobs:ability_cap"
+        {
+        }
+        [TAG_Compound (11 values)] "mowziesmobs:frozen"
+        {
+            [TAG_Int] "freezeDecayDelay": 0
+            [TAG_Float] "freezeProgress": 0.0
+            [TAG_Byte] "frozen": 0
+            [TAG_Float] "frozenLimbSwingAmount": 0.0
+            [TAG_Float] "frozenPitch": 0.0
+            [TAG_Float] "frozenRenderYawOffset": 0.0
+            [TAG_Float] "frozenSwingProgress": 0.0
+            [TAG_Float] "frozenYaw": 0.0
+            [TAG_Float] "frozenYawHead": 0.0
+            [TAG_Byte] "prevFrozen": 0
+            [TAG_Byte] "prevHasAI": 1
+        }
+        [TAG_Compound (11 values)] "mowziesmobs:frozen_cap"
+        {
+            [TAG_Int] "freezeDecayDelay": 0
+            [TAG_Float] "freezeProgress": 0.0
+            [TAG_Byte] "frozen": 0
+            [TAG_Float] "frozenLimbSwingAmount": 0.0
+            [TAG_Float] "frozenPitch": 0.0
+            [TAG_Float] "frozenRenderYawOffset": 0.0
+            [TAG_Float] "frozenSwingProgress": 0.0
+            [TAG_Float] "frozenYaw": 0.0
+            [TAG_Float] "frozenYawHead": 0.0
+            [TAG_Byte] "prevFrozen": 0
+            [TAG_Byte] "prevHasAI": 1
+        }
+        [TAG_Compound (0 values)] "mowziesmobs:last_damage"
+        {
+        }
+        [TAG_Compound (0 values)] "mowziesmobs:living_cap"
+        {
+        }
+        [TAG_Compound (4 values)] "mowziesmobs:player"
+        {
+            [TAG_Int] "prevTime": 0
+            [TAG_Int] "time": 0
+            [TAG_Int] "untilAxeSwing": 0
+            [TAG_Int] "untilSunstrike": 0
+        }
+        [TAG_Compound (4 values)] "mowziesmobs:player_cap"
+        {
+            [TAG_Int] "prevTime": 0
+            [TAG_Int] "time": 0
+            [TAG_Int] "untilAxeSwing": 0
+            [TAG_Int] "untilSunstrike": 0
+        }
+        [TAG_Compound (0 values)] "tconstruct:persistent_data"
+        {
+        }
+        [TAG_Compound (5 values)] "unusualend:player_variables"
+        {
+            [TAG_Double] "PlayerMusic": -1.0
+            [TAG_Byte] "isTeleporting": 0
+            [TAG_Double] "tpX": 0.0
+            [TAG_Double] "tpY": 0.0
+            [TAG_Double] "tpZ": 0.0
+        }
+    }
+    [TAG_Compound (3 values)] "ForgeData"
+    {
+        [TAG_Compound (1 values)] "PlayerPersisted"
+        {
+            [TAG_Compound (1 values)] "BalmData"
+            {
+                [TAG_Compound (1 values)] "WaystonesData"
+                {
+                    [TAG_List (0 values of type ?)] "Waystones"
+                    [
+                    ]
+                }
+            }
+        }
+        [TAG_Double] "endAltarTicks": 90.0
+        [TAG_Byte] "quark:trying_crawl": 0
+    }
+    [TAG_Float] "Health": 10.0
+    [TAG_Int] "HurtByTimestamp": 0
+    [TAG_Short] "HurtTime": 0
+    [TAG_List (8 values of type TAG_Compound)] "Inventory"
+    [
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 0
+            [TAG_String] "id": "endlessbiomes:arkan"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 1
+            [TAG_String] "id": "endlessbiomes:radon"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 2
+            [TAG_String] "id": "quark:myalite"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 3
+            [TAG_String] "id": "minecraft:chorus_flower"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 4
+            [TAG_String] "id": "unusualend:infused_end_stone_bricks"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 5
+            [TAG_String] "id": "minecraft:end_stone"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 6
+            [TAG_String] "id": "endlessbiomes:reaching_marula"
+        }
+        [TAG_Compound (3 values)] 
+        {
+            [TAG_Byte] "Count": 1
+            [TAG_Byte] "Slot": 7
+            [TAG_String] "id": "endlessbiomes:twisted_shoal_lamp"
+        }
+    ]
+    [TAG_Byte] "Invulnerable": 0
+    [TAG_Compound (2 values)] "LastDeathLocation"
+    {
+        [TAG_String] "dimension": "minecraft:the_end"
+        [TAG_Int_Array (3 entries)] "pos"
+        [
+              0: 0x000000B0 ( 176)
+              1: 0xFFFFFFB4 ( -76)
+              2: 0x00000116 ( 278)
+        ]
+    }
+    [TAG_List (3 values of type TAG_Double)] "Motion"
+    [
+        [TAG_Double] : 0.0
+        [TAG_Double] : -0.0784000015258789
+        [TAG_Double] : 0.0
+    ]
+    [TAG_Byte] "OnGround": 1
+    [TAG_Int] "PortalCooldown": 0
+    [TAG_List (3 values of type TAG_Double)] "Pos"
+    [
+        [TAG_Double] : 2185.5615687999457
+        [TAG_Double] : 61.0
+        [TAG_Double] : 133.4866994543439
+    ]
+    [TAG_List (2 values of type TAG_Float)] "Rotation"
+    [
+        [TAG_Float] : 54.89749
+        [TAG_Float] : 14.849581
+    ]
+    [TAG_Int] "Score": 0
+    [TAG_Int] "SelectedItemSlot": 7
+    [TAG_Short] "SleepTimer": 0
+    [TAG_Int_Array (4 entries)] "UUID"
+    [
+          0: 0xC6D0974B (-959408309)
+          1: 0x7856499D (2018920861)
+          2: 0xB2770EF9 (-1300820231)
+          3: 0x3F852FBB (1065693115)
+    ]
+    [TAG_Int] "XpLevel": 0
+    [TAG_Float] "XpP": 0.0
+    [TAG_Int] "XpSeed": -1097206464
+    [TAG_Int] "XpTotal": 0
+    [TAG_Compound (7 values)] "abilities"
+    {
+        [TAG_Float] "flySpeed": 0.05
+        [TAG_Byte] "flying": 0
+        [TAG_Byte] "instabuild": 1
+        [TAG_Byte] "invulnerable": 1
+        [TAG_Byte] "mayBuild": 1
+        [TAG_Byte] "mayfly": 1
+        [TAG_Float] "walkSpeed": 0.1
+    }
+    [TAG_String] "fireType": "minecraft:fire"
+    [TAG_Float] "foodExhaustionLevel": 0.0
+    [TAG_Int] "foodLevel": 20
+    [TAG_Float] "foodSaturationLevel": 0.0
+    [TAG_Int] "foodTickTimer": 0
+    [TAG_Byte] "ignore_fall_damage_from_current_explosion": 0
+    [TAG_Int] "playerGameType": 1
+    [TAG_Int] "previousPlayerGameType": 0
+    [TAG_Compound (0 values)] "recipeBook"
+    {
+    }
+    [TAG_Byte] "seenCredits": 0
+    [TAG_Compound (2 values)] "sol_food_data"
+    {
+        [TAG_Int] "count": 0
+        [TAG_Int] "max_slots": 3
+    }
+    [TAG_Byte] "spawn_extra_particles_on_fall": 0
+    [TAG_Compound (3 values)] "warden_spawn_tracker"
+    {
+        [TAG_Int] "cooldown_ticks": 0
+        [TAG_Int] "ticks_since_last_warning": 391
+        [TAG_Int] "warning_level": 0
+    }
+}

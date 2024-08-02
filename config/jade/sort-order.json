@@ -46,6 +46,7 @@
   "gravestone:grave": null,
   "lootr:info": null,
   "lootr:inventory": null,
+  "gravestone:grave": null,
   "custommachinery:machine_server_data_provider": null,
   "custommachinery:machine_component_provider": null,
   "waystones:waystone": null,
@@ -87,6 +88,5 @@
   "jade:registry_name": null,
   "jade:mod_name": null,
   "jade:distance": null,
-  "jade:block_face": null,
-  "gravestone:grave": null
+  "jade:block_face": null
 }

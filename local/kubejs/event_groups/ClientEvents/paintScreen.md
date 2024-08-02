@@ -32,50 +32,50 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | rawText | FormattedCharSequence, float, float, int, boolean |  | void | ✘ |
+| getVariables |  |  | VariableSet | ✘ |
+| translate | double, double |  | void | ✘ |
+| rectangle | float, float, float, float, float, int |  | void | ✘ |
+| rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
+| rotateDeg | float |  | void | ✘ |
+| alignY | float, float, int |  | float | ✘ |
+| alignX | float, float, int |  | float | ✘ |
+| rotateRad | float |  | void | ✘ |
 | scale | float, float |  | void | ✘ |
 | scale | float |  | void | ✘ |
 | text | Component, float, float, int, boolean |  | void | ✘ |
-| getVariables |  |  | VariableSet | ✘ |
-| rectangle | float, float, float, float, float, int, float, float, float, float |  | void | ✘ |
-| rectangle | float, float, float, float, float, int |  | void | ✘ |
-| translate | double, double |  | void | ✘ |
-| alignX | float, float, int |  | float | ✘ |
-| rotateRad | float |  | void | ✘ |
-| alignY | float, float, int |  | float | ✘ |
-| rotateDeg | float |  | void | ✘ |
 | setShaderColor | float, float, float, float |  | void | ✘ |
+| vertex | Matrix4f, float, float, float, int, float, float |  | void | ✘ |
+| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
+| bindTextureForSetup | ResourceLocation |  | void | ✘ |
+| setPositionColorShader |  |  | void | ✘ |
+| setPositionColorTextureShader |  |  | void | ✘ |
+| translate | double, double, double |  | void | ✘ |
+| resetShaderColor |  |  | void | ✘ |
+| beginQuads | VertexFormat |  | void | ✘ |
+| beginQuads | boolean |  | void | ✘ |
+| multiplyWithMatrix | Matrix4f |  | void | ✘ |
+| setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
+| getMatrix |  |  | Matrix4f | ✘ |
+| setShaderTexture | ResourceLocation |  | void | ✘ |
 | multiply | Quaternion |  | void | ✘ |
 | scale | float, float, float |  | void | ✘ |
 | end |  |  | void | ✘ |
 | begin | VertexFormat$Mode, VertexFormat |  | void | ✘ |
 | push |  |  | void | ✘ |
 | pop |  |  | void | ✘ |
-| resetShaderColor |  |  | void | ✘ |
-| vertex | Matrix4f, float, float, float, int |  | void | ✘ |
-| vertex | Matrix4f, float, float, float, int, float, float |  | void | ✘ |
-| bindTextureForSetup | ResourceLocation |  | void | ✘ |
-| setPositionColorShader |  |  | void | ✘ |
-| setPositionColorTextureShader |  |  | void | ✘ |
-| translate | double, double, double |  | void | ✘ |
-| setShaderTexture | ResourceLocation |  | void | ✘ |
-| beginQuads | VertexFormat |  | void | ✘ |
-| beginQuads | boolean |  | void | ✘ |
-| getMatrix |  |  | Matrix4f | ✘ |
-| setShaderInstance | Supplier<ShaderInstance> |  | void | ✘ |
-| multiplyWithMatrix | Matrix4f |  | void | ✘ |
+| getEntity |  |  | Player | ✘ |
 | getPlayer |  |  | Player | ✘ |
-| getEntity |  |  | Entity | ✘ |
 | addGameStage | String |  | void | ✘ |
 | removeGameStage | String |  | void | ✘ |
 | hasGameStage | String |  | boolean | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| exit | Object |  | Object | ✘ |
-| exit |  |  | Object | ✘ |
 | success |  |  | Object | ✘ |
 | success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| exit |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -105,24 +105,6 @@ Removes the specified game stage from the player
 
 ```
 Checks if the player has the specified game stage
-```
-
-- `Object exit(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
-```
-
-- `Object exit()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`exit` denotes a `default` outcome.
 ```
 
 - `Object success()`
@@ -159,6 +141,24 @@ Cancels the event with the given exit value. Execution will be stopped **immedia
 Cancels the event with default exit value. Execution will be stopped **immediately**.
 
 `cancel` denotes a `false` outcome.
+```
+
+- `Object exit(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
 ```
 
 
