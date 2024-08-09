@@ -7,12 +7,16 @@
     "block.tconstruct.crafting_station": "Crafting Table",
     "block.tconstruct.clear_glass": "Glass",
 
+    "item.minecraft.cookie": "Chocolate Cookie",
+
     "item.minecraft.wooden_pickaxe": "[REMOVED] Wooden Pickaxe",
     "item.minecraft.stone_pickaxe": "[REMOVED] Stone Pickaxe",
     "item.minecraft.iron_pickaxe": "[REMOVED] Iron Pickaxe",
     "item.minecraft.golden_pickaxe": "[REMOVED] Golden Pickaxe",
     "item.minecraft.diamond_pickaxe": "[REMOVED] Diamond Pickaxe",
     "item.minecraft.netherite_pickaxe": "[REMOVED] Netherite Pickaxe",
+
+    "item.supplementaries.item_shelf": "Thin Shelf",
 
     "item.tools_complement.copper_pickaxe": "[REMOVED] Copper Pickaxe",
     "item.tools_complement.tin_pickaxe": "[REMOVED] Tin Pickaxe",

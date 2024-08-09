@@ -1,5 +1,10 @@
 [
     {
+        "mob": "alexsmobs:devils_hole_pupfish",
+        "result": "allow"
+    },
+    // this is a test comment - and it works!
+    {
         "incontrol": true,
         "mob": "minecraft:cow",
         "seesky": true,
@@ -9,11 +14,11 @@
         "incontrol": true,
         "mob": "minecraft:silverfish",
         "seesky": false,
-        "result": "allow"
+        "result": "deny"
     },
     {
         "mob": "minecraft:silverfish",
-        "result": "allow"
+        "result": "deny"
     },
     {
         "incontrol": true,

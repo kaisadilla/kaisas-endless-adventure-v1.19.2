@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "gothic:old_camp_hunter",
+  "step": "surface_structures"
+}

@@ -102,10 +102,20 @@
 		#Non Vanilla gamerule: 'gothicAnimalSpawnRadius'
 		#Range: > 0
 		gothic_animal_spawn_radius = 160
+		#Non Vanilla gamerule: 'allowFlamebreathersSpawning'
+		allow_flamebreathers_spawning = true
+		#Non Vanilla gamerule: 'allowGraverisers'
+		allow_graverisers = true
+		#Non Vanilla gamerule: 'allowHauntersSpawning'
+		allow_haunters_spawning = true
+		#Non Vanilla gamerule: 'allowKnightsSpawning'
+		allow_knights_spawning = true
+		#Non Vanilla gamerule: 'allowWraithSpawning'
+		allow_wraith_spawning = true
+		#Non Vanilla gamerule: 'doGravesGenerate'
+		do_graves_generate = true
 
 	[gamerules.player]
-		#Non Vanilla gamerule: 'companion:alwaysTeleportHorses'
-		"companion:always_teleport_horses" = false
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
 		disable_elytra_movement_check = false
 		#Players respawn immediately without showing the death screen.
@@ -124,8 +134,6 @@
 		keep_inventory = true
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
 		natural_regeneration = true
-		#Non Vanilla gamerule: 'petFriendlyFire'
-		pet_friendly_fire = true
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
 		players_sleeping_percentage = 100
@@ -171,6 +179,8 @@
 		#Non Vanilla gamerule: 'shadowbeastAwakeRadius'
 		#Range: > 0
 		shadowbeast_awake_radius = 8
+		#Non Vanilla gamerule: 'armedSkeletons'
+		armed_skeletons = true
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.

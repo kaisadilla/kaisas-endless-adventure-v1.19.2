@@ -1,9 +1,12 @@
 {
     "disabled_tabs": [
+        //"food",
         "copperandtuffbackport",
         "morecreativetabs.trash_bin",
         "lootr",
+        "kubejs.kubejs",
         "tarotcards",
+        "thermal.foods",
         "Corail Woodcutter"
     ]
 }

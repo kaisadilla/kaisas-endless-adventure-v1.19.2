@@ -6,9 +6,6 @@
     "minecraft:tall_grass",
     "minecraft:grass_block",
     "minecraft:stone",
-    "minecraft:diorite",
-    "minecraft:granite",
-    "minecraft:andesite",
     "minecraft:gravel",
     "minecraft:sand",
     "minecraft:sandstone",
@@ -53,6 +50,8 @@
     "minecraft:mossy_stone_bricks",
     "minecraft:cracked_stone_bricks",
     "minecraft:stone_brick_wall",
-    "minecraft:lava"
+    "minecraft:lava",
+    "deeperdarker:sculk_stone",
+    "deeperdarker:gloomslate"
   ]
 }

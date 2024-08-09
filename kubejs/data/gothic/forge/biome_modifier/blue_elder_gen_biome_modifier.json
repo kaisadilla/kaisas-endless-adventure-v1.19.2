@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "gothic:blue_elder_gen",
+  "step": "vegetal_decoration"
+}

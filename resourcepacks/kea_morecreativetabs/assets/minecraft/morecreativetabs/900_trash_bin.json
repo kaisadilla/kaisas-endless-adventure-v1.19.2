@@ -84,6 +84,54 @@
         {
             "name": "corail_woodcutter:cherry_woodcutter",
             "hide_old_tab": true
+        },
+        {
+            "name": "thermal:apple_block",
+            "hide_old_tab": true
+        },
+        {
+            "name": "thermal:carrot_block",
+            "hide_old_tab": true
+        },
+        {
+            "name": "thermal:potato_block",
+            "hide_old_tab": true
+        },
+        {
+            "name": "thermal:beetroot_block",
+            "hide_old_tab": true
+        },
+        {
+            "name": "thermal:syrup_bottle",
+            "hide_old_tab": true
+        },
+        {
+            "name": "farmersdelight:basket",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsdelight:raw_bunfungus",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsdelight:cooked_bunfungus",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsdelight:raw_bunfungus_drumstick",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsdelight:cooked_bunfungus_drumstick",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsdelight:bunfungus_sandwich",
+            "hide_old_tab": true
+        },
+        {
+            "name": "alexsmobs:maggot",
+            "hide_old_tab": true
         }
     ]
 }

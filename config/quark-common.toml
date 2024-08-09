@@ -11,7 +11,7 @@
 	"Piston Push Limit" = 12
 	#How many advancements deep you can see in the advancement screen. Vanilla is 2.
 	#Allowed values: (0,)
-	"Advancement Visibility Depth" = 2
+	"Advancement Visibility Depth" = 12000
 	#Blocks that Quark should treat as Shulker Boxes.
 	"Shulker Boxes" = ["minecraft:white_shulker_box", "minecraft:orange_shulker_box", "minecraft:magenta_shulker_box", "minecraft:light_blue_shulker_box", "minecraft:yellow_shulker_box", "minecraft:lime_shulker_box", "minecraft:pink_shulker_box", "minecraft:gray_shulker_box", "minecraft:light_gray_shulker_box", "minecraft:cyan_shulker_box", "minecraft:purple_shulker_box", "minecraft:blue_shulker_box", "minecraft:brown_shulker_box", "minecraft:green_shulker_box", "minecraft:red_shulker_box", "minecraft:black_shulker_box"]
 	#Should Quark treat anything with 'shulker_box' in its item identifier as a shulker box?
@@ -35,7 +35,7 @@
 	#Set to false to stop quark from adding its own advancements
 	"Enable Quark Advancements" = true
 	#Set to false to disable the popup message telling you that you can config quark in the q menu
-	"Enable Onboarding" = true
+	"Enable Onboarding" = false
 	#Set to false to disable the behavior where quark will automatically hide any disabled items
 	"Hide Disabled Content" = true
 	#Set to false to disable Quark's item info when viewing recipe/uses for an item in JEI
@@ -106,7 +106,7 @@
 
 [building]
 	"Variant Ladders" = true
-	"Variant Bookshelves" = true
+	"Variant Bookshelves" = false
 	"Bamboo Backport" = true
 	"Compressed Blocks" = true
 	"More Potted Plants" = true
@@ -116,15 +116,15 @@
 	"More Stone Variants" = true
 	"Shear Vines" = true
 	"Nether Brick Fence Gate" = true
-	"Gold Bars" = true
-	Rope = true
+	"Gold Bars" = false
+	Rope = false
 	"Celebratory Lamps" = false
-	"Soul Sandstone" = true
+	"Soul Sandstone" = false
 	"Variant Chests" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	"Framed Glass" = true
-	"Vertical Planks" = true
-	"Variant Furnaces" = true
+	"Vertical Planks" = false
+	"Variant Furnaces" = false
 	Hedges = true
 	"Hollow Logs" = true
 	Midori = true
@@ -133,7 +133,7 @@
 	Shingles = true
 	"Sturdy Stone" = true
 	Stools = true
-	"Raw Metal Bricks" = true
+	"Raw Metal Bricks" = false
 	"More Mud Blocks" = true
 	Grate = true
 	"Japanese Palette" = true
@@ -169,24 +169,24 @@
 		"Bamboo Block Fuel Time" = 500
 		"Enable Charcoal Block" = true
 		"Enable Sugar Cane Block" = true
-		"Enable Bamboo Block" = true
-		"Enable Cactus Block" = true
-		"Enable Chorus Fruit Block" = true
+		"Enable Bamboo Block" = false
+		"Enable Cactus Block" = false
+		"Enable Chorus Fruit Block" = false
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = true
-		"Enable Golden Apple Crate" = true
-		"Enable Potato Crate" = true
-		"Enable Carrot Crate" = true
-		"Enable Golden Carrot Crate" = true
-		"Enable Beetroot Crate" = true
+		"Enable Apple Crate" = false
+		"Enable Golden Apple Crate" = false
+		"Enable Potato Crate" = false
+		"Enable Carrot Crate" = false
+		"Enable Golden Carrot Crate" = false
+		"Enable Beetroot Crate" = false
 		"Enable Cocoa Bean Sack" = true
 		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
 		"Enable Berry Sack" = true
 		"Enable Glow Berry Sack" = true
-		"Enable Blaze Lantern" = true
-		"Enable Bonded Leather" = true
-		"Enable Bonded Rabbit Hide" = true
+		"Enable Blaze Lantern" = false
+		"Enable Bonded Leather" = false
+		"Enable Bonded Rabbit Hide" = false
 
 	[building.thatch]
 		#This feature disables itself if any of the following mods are loaded: 
@@ -221,7 +221,7 @@
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
-		"Replace Worldgen Chests" = true
+		"Replace Worldgen Chests" = false
 		"Enable Reverting Wooden Chests" = true
 		#Chests to put in structures. It's preferred to use worldgen tags for this. The format per entry is "structure=chest", where "structure" is a structure ID, and "chest" is a block ID, which must correspond to a standard chest block.
 		"Structure Chests" = []
@@ -255,7 +255,7 @@
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
-		"Enable Bamboo Mats" = true
+		"Enable Bamboo Mats" = false
 
 	[building.more_brick_types]
 		#This also comes with a utility recipe for Red Nether Bricks
@@ -263,11 +263,11 @@
 		#This also includes Red Sandstone Bricks and Soul Sandstone Bricks
 		"Enable Sandstone Bricks" = true
 		#This also includes Mossy Cobblestone Bricks
-		"Enable Cobblestone Bricks" = true
+		"Enable Cobblestone Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Blackstone Bricks" = true
+		"Enable Blackstone Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
-		"Enable Dirt Bricks" = true
+		"Enable Dirt Bricks" = false
 		#Requires Cobblestone Bricks to be enabled
 		"Enable Netherrack Bricks" = true
 
@@ -285,7 +285,7 @@
 [management]
 	"Quick Armor Swapping" = true
 	"Item Sharing" = true
-	"Automatic Tool Restock" = true
+	"Automatic Tool Restock" = false
 	"Expanded Item Interactions" = true
 	"Inventory Sorting" = true
 	"Hotbar Changer" = true
@@ -318,7 +318,7 @@
 	[management.expanded_item_interactions]
 		"Enable Armor Interaction" = true
 		"Enable Shulker Box Interaction" = true
-		"Enable Lava Interaction" = true
+		"Enable Lava Interaction" = false
 		"Allow Opening Shulker Boxes" = true
 		"Allow Rotating Bundles" = true
 
@@ -337,18 +337,18 @@
 	"Ambient Discs" = true
 	"Pathfinder Maps" = true
 	"Color Runes" = false
-	Pickarang = true
+	Pickarang = false
 	"Parrot Eggs" = true
 	Trowel = true
 	Abacus = true
 	"Bottled Cloud" = true
 	"Torch Arrow" = true
 	"Bundle Recipe" = true
-	"Ancient Tomes" = true
+	"Ancient Tomes" = false
 	"Endermosh Music Disc" = true
-	"Seed Pouch" = true
+	"Seed Pouch" = false
 	"Skull Pikes" = true
-	"Slime In A Bucket" = true
+	"Slime In A Bucket" = false
 
 	[tools.beacon_redirection]
 		"Horizontal Move Limit" = 64
@@ -396,16 +396,16 @@
 		"Rainbow Rune Craftable" = true
 		#Whether you can blend runes of the 'primary' colors to create other colors of rune.
 		"Color Blending Runes" = true
-		"Dungeon Weight" = 10
-		"Nether Fortress Weight" = 8
-		"Jungle Temple Weight" = 8
-		"Desert Temple Weight" = 8
+		"Dungeon Weight" = 0
+		"Nether Fortress Weight" = 0
+		"Jungle Temple Weight" = 0
+		"Desert Temple Weight" = 0
 		"Item Quality" = 0
 		"Apply Cost" = 5
 
 	[tools.pickarang]
-		"Enable Flamerang" = true
-		"Enable Echorang" = true
+		"Enable Flamerang" = false
+		"Enable Echorang" = false
 		#Set this to true to use the recipe without the Heart of Diamond, even if the Heart of Diamond is enabled.
 		"Never Use Heart Of Diamond" = false
 
@@ -491,8 +491,8 @@
 			B = 0.0
 
 	[tools.bottled_cloud]
-		"Cloud Level Bottom" = 191
-		"Cloud Level Top" = 196
+		"Cloud Level Bottom" = 190
+		"Cloud Level Top" = 200
 
 	[tools.torch_arrow]
 		"Extinguish On Miss" = false
@@ -524,8 +524,8 @@
 		"Loot Quality" = 1
 
 	[tools.seed_pouch]
-		"Max Items" = 640
-		"Show All Variants In Creative" = true
+		"Max Items" = 9990
+		"Show All Variants In Creative" = false
 		"Shift Range" = 3
 
 	[tools.skull_pikes]
@@ -533,15 +533,15 @@
 
 [tweaks]
 	"Gold Tools Have Fortune" = true
-	"Automatic Recipe Unlock" = true
+	"Automatic Recipe Unlock" = false
 	"Utility Recipes" = true
 	"Poison Potato Usage" = true
-	"Better Elytra Rocket" = true
+	"Better Elytra Rocket" = false
 	"Renewable Spore Blossoms" = true
 	"Coral On Cactus" = true
-	"Glass Shard" = true
+	"Glass Shard" = false
 	"Pig Litters" = true
-	"Campfires Boost Elytra" = true
+	"Campfires Boost Elytra" = false
 	"Dyeable Item Frames" = true
 	"Slabs To Blocks" = false
 	"Map Washing" = true
@@ -790,13 +790,13 @@
 	"Spiral Spires" = true
 	"Ancient Wood" = true
 	"New Stone Types" = true
-	"Blossom Trees" = true
+	"Blossom Trees" = false
 	"Glimmering Weald" = true
 	"Monster Box" = true
 	"Azalea Wood" = true
-	"No More Lava Pockets" = true
-	Corundum = true
-	"Chorus Vegetation" = true
+	"No More Lava Pockets" = false
+	Corundum = false
+	"Chorus Vegetation" = false
 
 	[world.nether_obsidian_spikes]
 		#The chance for a chunk to contain spikes (1 is 100%, 0 is 0%)
@@ -1327,7 +1327,7 @@
 	[world.chorus_vegetation]
 		Rarity = 150
 		Radius = 7
-		"Chunk Attempts" = 120
+		"Chunk Attempts" = 0
 		"Highlands Chance" = 1.0
 		"Midlands Chance" = 0.2
 		"Other End Biomes Chance" = 0.0
@@ -1341,13 +1341,13 @@
 	Crabs = true
 	Forgotten = true
 	Shiba = true
-	Stonelings = true
-	Toretoise = true
+	Stonelings = false
+	Toretoise = false
 
 	[mobs.foxhound]
 		#The chance coal will tame a foxhound
 		"Tame Chance" = 0.05
-		"Foxhounds Speed Up Furnaces" = true
+		"Foxhounds Speed Up Furnaces" = false
 
 		[mobs.foxhound.spawn_config]
 			#Allowed values: (0,)
@@ -1438,7 +1438,7 @@
 
 	[mobs.forgotten]
 		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
-		"Forgotten Spawn Rate" = 0.05
+		"Forgotten Spawn Rate" = 0
 		"Max Height For Spawn" = 0
 
 	[mobs.shiba]
@@ -1473,7 +1473,7 @@
 
 		[mobs.stonelings.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:overworld"]
+			Dimensions = []
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
@@ -1527,18 +1527,18 @@
 
 [client]
 	Camera = true
-	"Elytra Indicator" = true
+	"Elytra Indicator" = false
 	"Improved Tooltips" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Buckets Show Inhabitants" = true
 	"Soul Candles" = true
 	"Auto Walk Keybind" = true
-	"Variant Animal Textures" = true
-	"Microcrafting Helper" = true
-	"Uses For Curses" = true
-	"Wool Shuts Up Minecarts" = true
+	"Variant Animal Textures" = false
+	"Microcrafting Helper" = false
+	"Uses For Curses" = false
+	"Wool Shuts Up Minecarts" = false
 	"Back Button Keybind" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Long Range Pick Block" = true
 	"Usage Ticker" = true
 
@@ -1876,13 +1876,13 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
+		"Dark Souls Mode" = false
 		#Totem will always spawn if the player killer is himself.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
 		"Destroy Lost Items" = false
 		#Set this to false to only allow the owner of a totem to collect its items rather than any player
-		"Allow Anyone To Collect" = false
+		"Allow Anyone To Collect" = true
 		"Enable Soul Compass" = true
 
 	[oddities.crate]

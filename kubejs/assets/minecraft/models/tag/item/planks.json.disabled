@@ -1,0 +1,9 @@
+{
+    "parent": "emi:item/quarter_item",
+    "textures": {
+        "first": "minecraft:block/oak_planks",
+        "second": "minecraft:block/birch_planks",
+        "third": "minecraft:block/dark_oak_planks",
+        "fourth": "minecraft:block/warped_planks"
+    }
+}

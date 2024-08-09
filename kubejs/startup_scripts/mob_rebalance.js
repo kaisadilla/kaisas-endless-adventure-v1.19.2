@@ -4,6 +4,7 @@ EntityJSEvents.attributes(evt => {
     evt.modify('alexsmobs:anaconda', attr => {
         attr.add('minecraft:generic.max_health', 1);
     });
+    generateEntityJson(evt);
 });
 
 EntityJSEvents.spawnPlacement(evt => {
