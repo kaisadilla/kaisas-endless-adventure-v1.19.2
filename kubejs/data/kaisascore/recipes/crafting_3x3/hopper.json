@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "# #",
+        "# #",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "tag": "kaisascore:crafting_metal_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:hopper"
+    }
+}

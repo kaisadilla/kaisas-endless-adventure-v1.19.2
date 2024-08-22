@@ -23,34 +23,34 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| getHand |  |  | InteractionHand | ✘ |
 | getEntity |  |  | LivingEntity | ✘ |
+| getHand |  |  | InteractionHand | ✘ |
 | getTarget |  |  | Entity | ✘ |
 | getItem |  |  | ItemStack | ✘ |
-| addGameStage | String |  | void | ✘ |
-| removeGameStage | String |  | void | ✘ |
-| hasGameStage | String |  | boolean | ✘ |
 | getPlayer |  |  | Player | ✘ |
+| addGameStage | String |  | void | ✘ |
+| hasGameStage | String |  | boolean | ✘ |
+| removeGameStage | String |  | void | ✘ |
 | getLevel |  |  | Level | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| success |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `InteractionHand getHand()`
-```
-The hand that was used to interact with the entity.
-```
-
 - `LivingEntity getEntity()`
 ```
 The player that interacted with the entity.
+```
+
+- `InteractionHand getHand()`
+```
+The hand that was used to interact with the entity.
 ```
 
 - `Entity getTarget()`
@@ -72,15 +72,6 @@ The item that was used to interact with the entity.
 Adds the specified game stage to the player
 ```
 
-- `void removeGameStage(String var0)`
-
-  Parameters:
-  - var0: String
-
-```
-Removes the specified game stage from the player
-```
-
 - `boolean hasGameStage(String var0)`
 
   Parameters:
@@ -90,22 +81,13 @@ Removes the specified game stage from the player
 Checks if the player has the specified game stage
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success(Object var0)`
+- `void removeGameStage(String var0)`
 
   Parameters:
-  - var0: Object
+  - var0: String
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
+Removes the specified game stage from the player
 ```
 
 - `Object cancel(Object var0)`
@@ -126,6 +108,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
 - `Object exit(Object var0)`
 
   Parameters:
@@ -137,11 +126,22 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `exit` denotes a `default` outcome.
 ```
 
-- `Object exit()`
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 

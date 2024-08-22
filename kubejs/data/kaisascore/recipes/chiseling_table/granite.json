@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:granite",
+        "minecraft:polished_granite"
+    ]
+}

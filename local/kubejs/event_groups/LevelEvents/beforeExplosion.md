@@ -25,20 +25,20 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | ---- | ---------- | ----------- | ------- |
 | getSize |  |  | float | ✘ |
 | setSize | float |  | void | ✘ |
-| getBlock |  |  | BlockContainerJS | ✘ |
+| getPosition |  |  | Vec3 | ✘ |
 | getY |  |  | double | ✘ |
-| getZ |  |  | double | ✘ |
+| getBlock |  |  | BlockContainerJS | ✘ |
+| getLevel |  |  | Level | ✘ |
 | getX |  |  | double | ✘ |
 | getExploder |  |  | LivingEntity | ✘ |
-| getPosition |  |  | Vec3 | ✘ |
-| getLevel |  |  | Level | ✘ |
+| getZ |  |  | double | ✘ |
 | getServer |  |  | MinecraftServer | ✘ |
-| success |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -55,24 +55,6 @@ Returns the size of the explosion.
 
 ```
 Sets the size of the explosion.
-```
-
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
 ```
 
 - `Object cancel(Object var0)`
@@ -93,6 +75,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
 - `Object exit(Object var0)`
 
   Parameters:
@@ -104,11 +93,22 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `exit` denotes a `default` outcome.
 ```
 
-- `Object exit()`
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 

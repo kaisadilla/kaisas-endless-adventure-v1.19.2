@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "  S",
+        " ST",
+        "S #"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "T": {
+            "tag": "forge:string"
+        },
+        "#": {
+            "item": "minecraft:warped_fungus"
+        }
+    },
+    "result": {
+        "item": "minecraft:warped_fungus_on_a_stick",
+        "count": 1
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "kaisascore:tool_workbench",
+    "pattern": [
+        "  #",
+        " S ",
+        "F  "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:flint"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "F": {
+            "tag": "forge:feathers"
+        }
+    },
+    "result": {
+        "item": "minecraft:arrow"
+    }
+}

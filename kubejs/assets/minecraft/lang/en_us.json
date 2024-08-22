@@ -1,11 +1,10 @@
 {
     "block.minecraft.crafting_table": "Crafting Board",
     "block.minecraft.glass": "Bordered Glass",
+    "block.minecraft.tinted_glass": "Bordered Tinted Glass",
+    "block.minecraft.glass_pane": "Bordered Glass Pane",
 
     "block.corail_woodcutter.oak_woodcutter": "Sawmill",
-
-    "block.tconstruct.crafting_station": "Crafting Table",
-    "block.tconstruct.clear_glass": "Glass",
 
     "item.minecraft.cookie": "Chocolate Cookie",
 

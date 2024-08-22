@@ -1,0 +1,21 @@
+{
+    "type": "kaisascore:sawmill",
+    "category": "redstone",
+    "pattern": [
+        "## ",
+        "##R",
+        "## "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "result": {
+        "count": 2,
+        "item": "minecraft:iron_door"
+    }
+}

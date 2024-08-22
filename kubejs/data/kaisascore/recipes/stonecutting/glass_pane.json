@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "tconstruct:clear_glass"
+    },
+    "result": "tconstruct:clear_glass_pane",
+    "count": 6
+}

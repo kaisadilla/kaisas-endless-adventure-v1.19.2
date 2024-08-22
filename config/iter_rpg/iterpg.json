@@ -1,0 +1,23 @@
+{
+  "generation": {
+    "vases": false,
+    "spider_eggs": true,
+    "abyss_quartz": false,
+    "goblin_camps": false,
+    "sorrow_spire": false,
+    "geodes": false,
+    "spider_catacombs": false,
+    "generic_dungeons": false
+  },
+  "mobs": {
+    "elementals": false,
+    "demons": false,
+    "scallops": false,
+    "giant_spiders": false,
+    "spiderlings": false
+  },
+  "functions": {
+    "goblin_spawner_cycle_time": 12000,
+    "geodrill_time": 12000
+  }
+}

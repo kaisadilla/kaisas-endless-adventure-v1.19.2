@@ -1,0 +1,19 @@
+{
+    "type": "kaisascore:sawmill",
+    "pattern": [
+        "WWW",
+        "BBB",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "tag": "minecraft:planks"
+        },
+        "B": {
+            "item": "minecraft:book"
+        }
+    },
+    "result": {
+        "item": "minecraft:bookshelf"
+    }
+}

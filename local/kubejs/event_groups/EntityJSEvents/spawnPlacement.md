@@ -22,12 +22,12 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | replace | EntityType<T extends Entity>, SpawnPlacements$Type, Heightmap$Types, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
 | or | EntityType<T extends Entity>, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
 | and | EntityType<T extends Entity>, SpawnPlacements.SpawnPlacements$SpawnPredicate<T extends Entity> |  | void | ✘ |
-| success |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
@@ -64,24 +64,6 @@ ORs the given spawn predicate with the existing spawn predicate of the given ent
 ANDs the given spawn predicate with the existing spawn predicates of the given entity type
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -100,6 +82,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
 - `Object exit(Object var0)`
 
   Parameters:
@@ -111,11 +100,22 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `exit` denotes a `default` outcome.
 ```
 
-- `Object exit()`
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 

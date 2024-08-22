@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        },
+        "X": {
+            "tag": "kaisascore:crafting_metal_ingot"
+        }
+    },
+    "pattern": [
+        "PPP",
+        "CXC",
+        "CRC"
+    ],
+    "result": {
+        "item": "minecraft:piston"
+    }
+}

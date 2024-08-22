@@ -96,24 +96,6 @@
 		zombie_fisherman_spawn = true
 		#Non Vanilla gamerule: 'zombieLumberjackSpawn'
 		zombie_lumberjack_spawn = true
-		#Non Vanilla gamerule: 'gothicAnimalSpawnHeight'
-		#Range: > 0
-		gothic_animal_spawn_height = 62
-		#Non Vanilla gamerule: 'gothicAnimalSpawnRadius'
-		#Range: > 0
-		gothic_animal_spawn_radius = 160
-		#Non Vanilla gamerule: 'allowFlamebreathersSpawning'
-		allow_flamebreathers_spawning = true
-		#Non Vanilla gamerule: 'allowGraverisers'
-		allow_graverisers = true
-		#Non Vanilla gamerule: 'allowHauntersSpawning'
-		allow_haunters_spawning = true
-		#Non Vanilla gamerule: 'allowKnightsSpawning'
-		allow_knights_spawning = true
-		#Non Vanilla gamerule: 'allowWraithSpawning'
-		allow_wraith_spawning = true
-		#Non Vanilla gamerule: 'doGravesGenerate'
-		do_graves_generate = true
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.
@@ -154,6 +136,10 @@
 		#Non Vanilla gamerule: 'teleportationAnchorCooldown'
 		#Range: > 0
 		teleportation_anchor_cooldown = 6000
+		#Non Vanilla gamerule: 'buildingDebug'
+		building_debug = false
+		#Non Vanilla gamerule: 'fragileBlocks'
+		fragile_blocks = true
 
 	[gamerules.mobs]
 		#Whether raids are disabled.
@@ -173,14 +159,6 @@
 		universal_anger = false
 		#Non Vanilla gamerule: 'zombiesinaBarrelSpawn'
 		zombiesina_barrel_spawn = true
-		#Non Vanilla gamerule: 'gothicAnimalAwakeRadius'
-		#Range: > 0
-		gothic_animal_awake_radius = 16
-		#Non Vanilla gamerule: 'shadowbeastAwakeRadius'
-		#Range: > 0
-		shadowbeast_awake_radius = 8
-		#Non Vanilla gamerule: 'armedSkeletons'
-		armed_skeletons = true
 
 	[gamerules.updates]
 		#Whether the daylight cycle and moon phases progress.
@@ -207,10 +185,6 @@
 		max_command_chain_length = 65536
 		#Whether the debug screen shows all or reduced information; and whether the effects of F3+B (entity hitboxes) and F3+G (chunk boundaries) are shown.
 		reduced_debug_info = false
-		#Non Vanilla gamerule: 'generateGothicPlants'
-		generate_gothic_plants = true
-		#Non Vanilla gamerule: 'generateGothicStructures'
-		generate_gothic_structures = true
 		#Non Vanilla gamerule: 'doEndblobBounce'
 		do_endblob_bounce = true
 		#Non Vanilla gamerule: 'needTeleportationAnchor'

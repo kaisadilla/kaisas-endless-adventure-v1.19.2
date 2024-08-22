@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "CCC",
+        "C C",
+        "CRC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:dropper"
+    }
+}

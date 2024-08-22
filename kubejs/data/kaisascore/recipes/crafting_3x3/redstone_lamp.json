@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "GDG",
+        "DRD",
+        "GDG"
+    ],
+    "key": {
+        "G": {
+            "tag": "forge:glass/colorless"
+        },
+        "D": {
+            "item": "minecraft:glowstone_dust"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:redstone_lamp"
+    }
+}

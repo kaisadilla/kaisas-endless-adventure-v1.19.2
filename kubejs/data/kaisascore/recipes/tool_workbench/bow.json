@@ -1,0 +1,21 @@
+{
+    "type": "kaisascore:tool_workbench",
+    "pattern": [
+        "TS  ",
+        "T S ",
+        "T  S",
+        "T S ",
+        "TS  "
+    ],
+    "key": {
+        "T": {
+            "tag": "forge:string"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "minecraft:bow"
+    }
+}

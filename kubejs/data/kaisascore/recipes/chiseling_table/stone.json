@@ -1,0 +1,12 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:stone",
+        "minecraft:smooth_stone",
+        "minecraft:mossy_cobblestone",
+        "minecraft:stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:chiseled_stone_bricks"
+    ]
+}

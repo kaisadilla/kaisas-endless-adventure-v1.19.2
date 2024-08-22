@@ -1,0 +1,8 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:smooth_basalt",
+        "minecraft:basalt",
+        "minecraft:polished_basalt"
+    ]
+}

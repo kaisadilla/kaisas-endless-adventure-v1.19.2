@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        " S ",
+        "CRC"
+    ],
+    "key": {
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:lever"
+    }
+}

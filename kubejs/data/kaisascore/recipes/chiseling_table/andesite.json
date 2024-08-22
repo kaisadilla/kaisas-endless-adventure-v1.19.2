@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:andesite",
+        "minecraft:polished_andesite"
+    ]
+}

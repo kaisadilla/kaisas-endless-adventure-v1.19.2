@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "tconstruct:clear_glass",
+        "minecraft:glass"
+    ]
+}

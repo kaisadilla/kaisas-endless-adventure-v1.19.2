@@ -19,34 +19,51 @@ Note: Even if no fields are listed above, some methods are still available as fi
 
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
-| removeAllGoals |  |  | void | ✘ |
-| removeGoals | Function<GoalContext, Boolean> |  | void | ✘ |
 | removeGoal | Class<? extends Goal> |  | void | ✘ |
-| ownerHurtByTarget | int |  | void | ✘ |
 | hurtByTarget | int, List<Class<?>>, boolean, List<Class<?>> |  | void | ✘ |
+| removeGoals | Function<GoalContext, Boolean> |  | void | ✘ |
+| removeAllGoals |  |  | void | ✘ |
+| ownerHurtByTarget | int |  | void | ✘ |
 | arbitraryTargetGoal | int, Function<T extends Mob, Goal> |  | void | ✘ |
 | nonTameRandomTarget | int, Class<E extends LivingEntity>, boolean, Predicate<LivingEntity> |  | void | ✘ |
 | resetUniversalAngerTarget | int, boolean |  | void | ✘ |
 | nearestAttackableTarget | int, Class<E extends LivingEntity>, int, boolean, boolean, Predicate<LivingEntity> |  | void | ✘ |
 | getEntity |  |  | Mob | ✘ |
-| success |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
 
-- `void removeAllGoals()`
+- `void removeGoal(Class<? extends Goal> goal)`
+
+  Parameters:
+  - goal: Class<? extends Goal>- The goal class to remove
+
 ```
-Remove all goals.
+Remove a goal from the entity via class reference.
 
 Example of usage:
 =====================================
-builder.removeAllGoals()
+let $PanicGoal = Java.loadClass("net.minecraft.world.entity.ai.goal.PanicGoal")
+builder.removeGoal($PanicGoal)
 =====================================
+```
+
+- `void hurtByTarget(int priority, List<Class<?>> toIgnoreDamage, boolean alertOthers, List<Class<?>> toIgnoreAlert)`
+
+  Parameters:
+  - priority: int- The priority of the goal
+  - toIgnoreDamage: List<Class<?>>- The classes that damage should be ignored from
+  - alertOthers: boolean- If other mobs should be alerted when this mob is damaged
+  - toIgnoreAlert: List<Class<?>>- The entity classes that should not be alerted
+
+```
+Adds s `HurtByTargetGoal` to the entity, only applicable to **pathfinder** mobs
 ```
 
 - `void removeGoals(Function<GoalContext, Boolean> goalFunction)`
@@ -67,18 +84,13 @@ e.removeGoals(context => {
 =====================================
 ```
 
-- `void removeGoal(Class<? extends Goal> goal)`
-
-  Parameters:
-  - goal: Class<? extends Goal>- The goal class to remove
-
+- `void removeAllGoals()`
 ```
-Remove a goal from the entity via class reference.
+Remove all goals.
 
 Example of usage:
 =====================================
-let $PanicGoal = Java.loadClass("net.minecraft.world.entity.ai.goal.PanicGoal")
-builder.removeGoal($PanicGoal)
+builder.removeAllGoals()
 =====================================
 ```
 
@@ -89,18 +101,6 @@ builder.removeGoal($PanicGoal)
 
 ```
 Adds a `OwnerHurtByTargetGoal` to the entity, only applicable to **tamable** mobs
-```
-
-- `void hurtByTarget(int priority, List<Class<?>> toIgnoreDamage, boolean alertOthers, List<Class<?>> toIgnoreAlert)`
-
-  Parameters:
-  - priority: int- The priority of the goal
-  - toIgnoreDamage: List<Class<?>>- The classes that damage should be ignored from
-  - alertOthers: boolean- If other mobs should be alerted when this mob is damaged
-  - toIgnoreAlert: List<Class<?>>- The entity classes that should not be alerted
-
-```
-Adds s `HurtByTargetGoal` to the entity, only applicable to **pathfinder** mobs
 ```
 
 - `void arbitraryTargetGoal(int priority, Function<T extends Mob, Goal> goalSupplier)`
@@ -159,24 +159,6 @@ Adds a `ResetUniversalAngerTargetGoal` to the entity, only applicable to **neutr
 Adds a `NearestAttackableTargetGoal` to the entity
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success(Object var0)`
-
-  Parameters:
-  - var0: Object
-
-```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
 - `Object cancel(Object var0)`
 
   Parameters:
@@ -195,6 +177,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
 - `Object exit(Object var0)`
 
   Parameters:
@@ -206,11 +195,22 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `exit` denotes a `default` outcome.
 ```
 
-- `Object exit()`
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "S",
+        "A"
+    ],
+    "key": {
+        "C": {
+            "tag": "minecraft:coals"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "A": {
+            "tag": "kaisascore:soul_soils"
+        }
+    },
+    "result": {
+        "item": "minecraft:soul_torch",
+        "count": 4
+    }
+}

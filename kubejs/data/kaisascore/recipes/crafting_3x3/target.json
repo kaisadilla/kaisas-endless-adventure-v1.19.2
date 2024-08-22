@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        "WRW",
+        "RHR",
+        "WRW"
+    ],
+    "key": {
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "W": {
+            "tag": "minecraft:wool"
+        },
+        "H": {
+            "item": "minecraft:hay_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:target"
+    }
+}

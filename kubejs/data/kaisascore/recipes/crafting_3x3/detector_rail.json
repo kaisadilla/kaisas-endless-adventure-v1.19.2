@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "X X",
+        "X#X",
+        "XRX"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone_pressure_plate"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "X": {
+            "tag": "forge:ingots/iron"
+        }
+    },
+    "result": {
+        "count": 6,
+        "item": "minecraft:detector_rail"
+    }
+}

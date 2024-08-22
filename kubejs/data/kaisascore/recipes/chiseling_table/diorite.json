@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:diorite",
+        "minecraft:polished_diorite"
+    ]
+}

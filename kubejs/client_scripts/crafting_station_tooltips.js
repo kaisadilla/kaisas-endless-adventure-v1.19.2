@@ -42,4 +42,12 @@ ItemEvents.tooltip(evt => {
 	evt.add('minecraft:composter', Text.of(
         "Generates bonemeal from organic resources."
     ).color(LIGHT_GRAY));
+
+    //evt.addAdvanced('simplyswords:awakened_lichblade', (item, advanced, text) => {
+    //    const name = text[0];
+    //    text.clear();
+    //    text.add(name);
+    //
+    //    text.add("Some text e.e.");
+    //})
 });

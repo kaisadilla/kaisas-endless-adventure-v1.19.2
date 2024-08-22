@@ -28,26 +28,17 @@ Note: Even if no fields are listed above, some methods are still available as fi
 | Name | Parameters | Return type | Static? |
 | ---- | ---------- | ----------- | ------- |
 | provide |  |  | Brain.Brain$Provider<T extends LivingEntity> | ✘ |
-| addSensor | SensorType<? extends Sensor<? super LivingEntity>> |  | void | ✘ |
 | addMemory | MemoryModuleType<?> |  | void | ✘ |
-| success |  |  | Object | ✘ |
-| success | Object |  | Object | ✘ |
+| addSensor | SensorType<? extends Sensor<? super LivingEntity>> |  | void | ✘ |
 | cancel | Object |  | Object | ✘ |
 | cancel |  |  | Object | ✘ |
-| exit | Object |  | Object | ✘ |
 | exit |  |  | Object | ✘ |
+| exit | Object |  | Object | ✘ |
+| success | Object |  | Object | ✘ |
+| success |  |  | Object | ✘ |
 
 
 ### Documented members:
-
-- `void addSensor(SensorType<? extends Sensor<? super LivingEntity>> var0)`
-
-  Parameters:
-  - var0: SensorType<? extends Sensor<? super LivingEntity>>
-
-```
-Adds the provided `SensorType` to the entity type's sensors
-```
 
 - `void addMemory(MemoryModuleType<?> var0)`
 
@@ -58,22 +49,13 @@ Adds the provided `SensorType` to the entity type's sensors
 Adds the provided `MemoryModuleType` to the entity type's memories
 ```
 
-- `Object success()`
-```
-Stops the event with default exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
-```
-
-- `Object success(Object var0)`
+- `void addSensor(SensorType<? extends Sensor<? super LivingEntity>> var0)`
 
   Parameters:
-  - var0: Object
+  - var0: SensorType<? extends Sensor<? super LivingEntity>>
 
 ```
-Stops the event with the given exit value. Execution will be stopped **immediately**.
-
-`success` denotes a `true` outcome.
+Adds the provided `SensorType` to the entity type's sensors
 ```
 
 - `Object cancel(Object var0)`
@@ -94,6 +76,13 @@ Cancels the event with default exit value. Execution will be stopped **immediate
 `cancel` denotes a `false` outcome.
 ```
 
+- `Object exit()`
+```
+Stops the event with default exit value. Execution will be stopped **immediately**.
+
+`exit` denotes a `default` outcome.
+```
+
 - `Object exit(Object var0)`
 
   Parameters:
@@ -105,11 +94,22 @@ Stops the event with the given exit value. Execution will be stopped **immediate
 `exit` denotes a `default` outcome.
 ```
 
-- `Object exit()`
+- `Object success(Object var0)`
+
+  Parameters:
+  - var0: Object
+
+```
+Stops the event with the given exit value. Execution will be stopped **immediately**.
+
+`success` denotes a `true` outcome.
+```
+
+- `Object success()`
 ```
 Stops the event with default exit value. Execution will be stopped **immediately**.
 
-`exit` denotes a `default` outcome.
+`success` denotes a `true` outcome.
 ```
 
 

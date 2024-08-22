@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:weathered_copper",
+        "minecraft:weathered_cut_copper"
+    ]
+}

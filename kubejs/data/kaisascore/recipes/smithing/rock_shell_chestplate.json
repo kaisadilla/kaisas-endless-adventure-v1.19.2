@@ -1,0 +1,16 @@
+{
+    "type": "kaisascore:smithing",
+    "base": {
+        "item": "minecraft:iron_chestplate"
+    },
+    "ingredients": [
+        {
+            "type": "forge:nbt",
+            "item": "alexsmobs:rocky_shell",
+            "count": 10
+        }
+    ],
+    "output": {
+        "item": "alexsmobs:rocky_chestplate"
+    }
+}

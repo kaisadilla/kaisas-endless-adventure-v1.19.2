@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "type": "kaisascore:chiseling",
+    "options": [
+        "minecraft:waxed_oxidized_copper",
+        "minecraft:waxed_oxidized_cut_copper"
+    ]
+}

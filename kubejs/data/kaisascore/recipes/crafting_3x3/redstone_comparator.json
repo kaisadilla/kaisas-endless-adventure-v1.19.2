@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "redstone",
+    "pattern": [
+        " T ",
+        "TRT",
+        "SSS"
+    ],
+    "key": {
+        "T": {
+            "item": "minecraft:redstone_torch"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        }
+    },
+    "result": {
+        "item": "minecraft:comparator"
+    }
+}

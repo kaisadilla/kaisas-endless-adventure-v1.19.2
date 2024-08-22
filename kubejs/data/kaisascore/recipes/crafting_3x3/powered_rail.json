@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CRC",
+        "CSC",
+        "CRC"
+    ],
+    "key": {
+        "C": {
+            "tag": "forge:ingots/copper"
+        },
+        "R": {
+            "tag": "forge:dusts/redstone"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "minecraft:powered_rail",
+        "count": 6
+    }
+}
