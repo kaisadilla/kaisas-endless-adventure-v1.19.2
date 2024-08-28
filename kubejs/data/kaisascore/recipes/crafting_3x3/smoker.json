@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "LCL",
+        "C C",
+        "LCL"
+    ],
+    "key": {
+        "L": {
+            "tag": "minecraft:logs"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:smoker"
+    }
+}

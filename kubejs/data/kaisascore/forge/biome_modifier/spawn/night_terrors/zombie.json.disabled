@@ -1,0 +1,24 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": {
+        "type": "forge:and",
+        "values": [
+            "#minecraft:is_overworld",
+            {
+                "type": "forge:not",
+                "value": {
+                    "type": "forge:and",
+                    "values": [
+                        "#kaisascore:spawn/has_husks"
+                    ]
+                }
+            }
+        ]
+    },
+    "spawners": {
+        "type": "minecraft:zombie",
+        "minCount": 4,
+        "maxCount": 8,
+        "weight": 200
+    }
+}

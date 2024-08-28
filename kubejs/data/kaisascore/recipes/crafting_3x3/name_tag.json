@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C",
+        "#",
+        "#"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:chain"
+        },
+        "#": {
+            "tag": "kaisascore:crafting_metal_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:name_tag"
+    }
+}

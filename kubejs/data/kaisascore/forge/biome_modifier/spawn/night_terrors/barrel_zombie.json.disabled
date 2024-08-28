@@ -1,0 +1,10 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": "#kaisascore:river_related",
+    "spawners": {
+        "type": "born_in_chaos_v1:barrel_zombie",
+        "minCount": 1,
+        "maxCount": 1,
+        "weight": 50
+    }
+}

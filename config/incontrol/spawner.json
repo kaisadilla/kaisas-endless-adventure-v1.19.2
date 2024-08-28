@@ -1,8 +1,284 @@
 [
+    // #region Night Terrors
+    // #region Zombies
     {
-        "mob": "minecraft:cow",
+        "mob": "minecraft:zombie",
+        "persecond": 1,
+        "attempts": 95,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "minecraft:husk",
+        "persecond": 1,
+        "attempts": 95,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "minecraft:zombie_villager",
+        "persecond": 1,
+        "attempts": 5,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:zombie_bruiser",
+        "persecond": 1,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:barrel_zombie",
+        "persecond": 1,
+        "attempts": 5,
+        "amount": {
+            "minimum": 1,
+            "maximum": 2
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128,
+            "inwater": true,
+            "inair": false
+        }
+    },
+    // #endregion
+
+    // #region Skeletons
+    {
+        "mob": "minecraft:skeleton",
+        "persecond": 1,
+        "attempts": 20,
+        "amount": {
+            "minimum": 2,
+            "maximum": 2
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "phase": "skeleton_night",
         "persecond": 1,
         "attempts": 40,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:decrepit_skeleton",
+        "persecond": 1,
+        "attempts": 30,
+        "amount": {
+            "minimum": 2,
+            "maximum": 2
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:skeleton_thrasher",
+        "persecond": 0.2,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:skeleton_thrasher",
+        "phase": "skeleton_night",
+        "persecond": 0.8,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 32,
+            "maxdist": 128
+        }
+    },
+    // #endregion
+
+    // #region Others
+    {
+        "mob": "minecraft:witch",
+        "persecond": 0.02,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": [
+                "minecraft:overworld",
+                "minecraft:the_nether"
+            ],
+            "norestrictions": true, // witches can spawn in daylight
+            "mindist": 32,
+            "maxdist": 128,
+            "maxthis": 2
+        }
+    },
+    // #endregion
+
+    // #endregion
+
+    // #region Cave Lurkers
+    {
+        "mob": "minecraft:spider",
+        "persecond": 1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 24,
+            "maxdist": 64,
+            "minheight": 0
+        }
+    },
+    {
+        "mob": "enemyexpansion:tarantula",
+        "persecond": 1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 24,
+            "maxdist": 64,
+            "minheight": -64,
+            "maxheight": 0
+        }
+    },
+    {
+        "mob": "enemyexpansion:scorpion",
+        "persecond": 1,
+        "attempts": 2,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 24,
+            "maxdist": 64,
+            "minheight": 32
+        }
+    },
+    {
+        "mob": "iter_rpg:scallop",
+        "persecond": 1,
+        "attempts": 1,
+        "amount": {
+            "minimum": 4,
+            "maximum": 4,
+            "groupdistance": 3
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 24,
+            "maxdist": 64,
+            "minheight": 32
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "persecond": 1,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 24,
+            "maxdist": 64,
+            "minheight": -64,
+            "maxheight": 56
+        }
+    },
+    {
+        "mob": "alexsmobs:centipede_head",
+        "persecond": 0.2,
+        "attempts": 1,
+        "amount": {
+            "minimum": 1,
+            "maximum": 1
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "norestrictions": true,
+            "mindist": 32,
+            "maxdist": 64,
+            "minheight": -64,
+            "maxheight": -24
+        }
+    },
+    {
+        "mob": "born_in_chaos_v1:firelight",
+        "persecond": 1,
+        "attempts": 10,
         "amount": {
             "minimum": 4,
             "maximum": 8
@@ -10,13 +286,34 @@
         "conditions": {
             "dimension": "minecraft:overworld",
             "norestrictions": true,
-            "mindist": 64,
-            "maxdist": 128,
-            "minheight": 45,
-            "maxheight": 200,
-            "maxthis": 26
+            "mindist": 32,
+            "maxdist": 96,
+            "minheight": -64,
+            "maxheight": -8,
+            "inlava": true
         }
-    },
+    }
+    // alexsmobs:rocky_roller -> naturally generated
+    // #endregion
+
+    //{
+    //    "mob": "minecraft:zombie",
+    //    "persecond": 1,
+    //    "attempts": 40,
+    //    "amount": {
+    //        "minimum": 4,
+    //        "maximum": 8
+    //    },
+    //    "conditions": {
+    //        "dimension": "minecraft:overworld",
+    //        "norestrictions": true,
+    //        "mindist": 64,
+    //        "maxdist": 128,
+    //        "minheight": 45,
+    //        "maxheight": 200,
+    //        "maxthis": 26
+    //    }
+    //}
     //{
     //    "mob": "minecraft:drowned",
     //    "persecond": 0.5,
@@ -35,23 +332,23 @@
     //        "maxthis": 200
     //    }
     //},
-    {
-        "mob": "minecraft:silverfish",
-        "persecond": 1,
-        "attempts": 20,
-        "amount": {
-            "minimum": 16,
-            "maximum": 20,
-            "groupdistance": 3
-
-        },
-        "conditions": {
-            "dimension": "minecraft:overworld",
-            "norestrictions": true,
-            "mindist": 64,
-            "maxdist": 96,
-            "minheight": -64,
-            "maxheight": 32
-        }
-    }
+    //{
+    //    "mob": "minecraft:silverfish",
+    //    "persecond": 1,
+    //    "attempts": 20,
+    //    "amount": {
+    //        "minimum": 16,
+    //        "maximum": 20,
+    //        "groupdistance": 3
+    //
+    //    },
+    //    "conditions": {
+    //        "dimension": "minecraft:overworld",
+    //        "norestrictions": true,
+    //        "mindist": 64,
+    //        "maxdist": 96,
+    //        "minheight": -64,
+    //        "maxheight": 32
+    //    }
+    //}
 ]

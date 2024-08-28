@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:oak_planks"
+        },
+        "C": {
+            "tag": "forge:chests"
+        }
+    },
+    "result": {
+        "item": "storagedrawers:spruce_full_drawers_1"
+    }
+}

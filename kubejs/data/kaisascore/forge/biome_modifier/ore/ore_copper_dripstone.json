@@ -1,0 +1,8 @@
+{
+    "type": "forge:add_features",
+    "biomes": [
+        "minecraft:dripstone_caves"
+    ],
+    "features": "kaisascore:ore_copper_dripstone",
+    "step": "underground_ores"
+}

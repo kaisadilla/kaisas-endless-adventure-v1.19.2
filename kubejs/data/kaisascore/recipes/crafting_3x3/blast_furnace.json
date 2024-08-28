@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "S S",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:smooth_stone"
+        },
+        "S": {
+            "tag": "forge:ingots/steel"
+        }
+    },
+    "result": {
+        "item": "minecraft:blast_furnace"
+    }
+}

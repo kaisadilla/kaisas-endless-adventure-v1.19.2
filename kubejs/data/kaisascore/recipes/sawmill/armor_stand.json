@@ -1,0 +1,21 @@
+{
+    "type": "kaisascore:sawmill",
+    "pattern": [
+        "  S  ",
+        "SSSSS",
+        " S S ",
+        " S S ",
+        "CCCCC"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:rods/wooden"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        }
+    },
+    "result": {
+        "item": "minecraft:armor_stand"
+    }
+}

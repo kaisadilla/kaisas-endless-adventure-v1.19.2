@@ -1,0 +1,27 @@
+{
+    "type": "kaisascore:tool_workbench",
+    "pattern": [
+        "  I  ",
+        " SSS ",
+        "TTHTT",
+        "  S  ",
+        "  S  "
+    ],
+    "key": {
+        "T": {
+            "tag": "forge:string"
+        },
+        "H": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "I": {
+            "tag": "forge:ingots/iron"
+        },
+        "S": {
+            "tag": "forge:rods/wooden"
+        }
+    },
+    "result": {
+        "item": "minecraft:crossbow"
+    }
+}

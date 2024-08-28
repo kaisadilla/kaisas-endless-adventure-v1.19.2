@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gray_wool"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:gray_bed",
+        "count": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "minecraft:river",
+            "required": false
+        },
+        {
+            "id": "minecraft:frozen_river",
+            "required": false
+        },
+        {
+            "id": "minecraft:beach",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:dune_beach",
+            "required": false
+        },
+        {
+            "id": "minecraft:snowy_beach",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:tropics",
+            "required": false
+        },
+        {
+            "id": "minecraft:stony_shore",
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "PPP",
+        "PPP"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:string"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "count": 6,
+        "item": "minecraft:loom"
+    }
+}

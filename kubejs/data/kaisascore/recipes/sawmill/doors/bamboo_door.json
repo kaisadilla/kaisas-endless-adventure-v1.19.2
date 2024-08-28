@@ -1,0 +1,19 @@
+{
+  "type": "kaisascore:sawmill",
+  "category": "redstone",
+  "group": "wooden_door",
+  "key": {
+    "#": {
+      "item": "quark:bamboo_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "quark:bamboo_door"
+  }
+}

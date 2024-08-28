@@ -1,0 +1,15 @@
+{
+    "type": "kaisascore:tool_workbench",
+    "pattern": [
+        " L L ",
+        "LL LL"
+    ],
+    "key": {
+        "L": {
+            "tag": "forge:leather"
+        }
+    },
+    "result": {
+        "item": "minecraft:leather_boots"
+    }
+}

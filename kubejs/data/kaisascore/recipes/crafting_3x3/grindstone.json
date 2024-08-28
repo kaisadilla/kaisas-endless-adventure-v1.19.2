@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ISI",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "tag": "minecraft:planks"
+        },
+        "S": {
+            "item": "minecraft:stone"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:grindstone"
+    }
+}

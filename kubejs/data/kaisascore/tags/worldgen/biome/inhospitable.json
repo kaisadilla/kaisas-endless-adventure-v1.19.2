@@ -1,0 +1,93 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "biomesoplenty:volcanic_plains",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:wasteland",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:wasteland_steppe",
+            "required": false
+        },
+        {
+            "id": "minecraft:ice_spikes",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:old_growth_dead_forest",
+            "required": false
+        },
+        {
+            "id": "minecraft:windswept_savanna",
+            "required": false
+        },
+        {
+            "id": "minecraft:frozen_peaks",
+            "required": false
+        },
+        {
+            "id": "minecraft:jagged_peaks",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:volcano",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:volcano",
+            "required": false
+        },
+        {
+            "id": "minecraft:warm_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:lukewarm_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:deep_lukewarm_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:deep_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:cold_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:deep_cold_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:frozen_ocean",
+            "required": false
+        },
+        {
+            "id": "minecraft:deep_frozen_ocean",
+            "required": false
+        },
+        {
+            "id": "biomesoplenty:ominous_woods",
+            "required": false
+        },
+        {
+            "id": "desolation:charred_forest",
+            "required": false
+        },
+        {
+            "id": "minecraft:stony_shore",
+            "required": false
+        }
+    ]
+}

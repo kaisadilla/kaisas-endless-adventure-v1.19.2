@@ -1,0 +1,16 @@
+{
+    "type": "kaisascore:tool_workbench",
+    "pattern": [
+        " M ",
+        "M M",
+        "MM "
+    ],
+    "key": {
+        "M": {
+            "tag": "kaisascore:crafting_metal_ingot"
+        }
+    },
+    "result": {
+        "item": "minecraft:shears"
+    }
+}

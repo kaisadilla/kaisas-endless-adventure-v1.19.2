@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "wooden_button",
+  "ingredients": [
+    {
+      "item": "quark:bamboo_planks"
+    }
+  ],
+  "result": {
+    "item": "quark:bamboo_button",
+    "count": 6
+  }
+}

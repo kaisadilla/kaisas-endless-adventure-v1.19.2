@@ -1,0 +1,16 @@
+{
+    "type": "kaisascore:smithing",
+    "base": {
+        "item": "minecraft:leather_helmet"
+    },
+    "ingredients": [
+        {
+            "type": "forge:nbt",
+            "item": "minecraft:iron_ingot",
+            "count": 6
+        }
+    ],
+    "output": {
+        "item": "minecraft:iron_helmet"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "carvers": {
+        "air": [
+            "minecraft:cave",
+            "minecraft:cave_extra_underground",
+            "minecraft:canyon"
+        ]
+    },
+    "downfall": 0.6,
+    "effects": {
+        "fog_color": 12638463,
+        "foliage_color": 9355074,
+        "grass_color": 11916636,
+        "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+        },
+        "music": {
+            "max_delay": 24000,
+            "min_delay": 12000,
+            "replace_current_music": false,
+            "sound": "minecraft:music.overworld.jungle_and_forest"
+        },
+        "sky_color": 7907327,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "features": [
+        [],
+        [
+            "minecraft:lake_lava_underground"
+        ],
+        [
+            "minecraft:amethyst_geode"
+        ],
+        [
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
+        ],
+        [],
+        [],
+        [
+            "kaisascore:rock_marble",
+            "kaisascore:ore_coal",
+            "kaisascore:ore_coal_surface",
+            "kaisascore:ore_copper",
+            "kaisascore:ore_tin",
+            "kaisascore:ore_lead",
+            "kaisascore:ore_iron",
+            "kaisascore:ore_nickel",
+            "kaisascore:ore_gold_stone_layer",
+            "kaisascore:ore_gold_deepslate_layer",
+            "kaisascore:ore_diamond",
+            "minecraft:ore_dirt",
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel"
+        ],
+        [],
+        [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:glow_lichen",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal",
+            "biomesoplenty:trees_redwood_forest",
+            "biomesoplenty:patch_fern_4",
+            "biomesoplenty:patch_large_fern_extra",
+            "biomesoplenty:moss_splatter"
+        ],
+        [
+            "minecraft:freeze_top_layer"
+        ]
+    ],
+    "precipitation": "rain",
+    "spawn_costs": {},
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "temperature": 0.8
+}

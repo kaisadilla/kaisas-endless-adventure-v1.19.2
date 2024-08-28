@@ -1,0 +1,12 @@
+{
+    "type": "forge:add_features",
+    "biomes": [
+        "minecraft:badlands",
+        "minecraft:desert",
+        "minecraft:eroded_badlands",
+        "minecraft:wooded_badlands",
+        "biomesoplenty:lush_desert"
+    ],
+    "features": "kaisascore:ore_lapis_desert",
+    "step": "underground_ores"
+}

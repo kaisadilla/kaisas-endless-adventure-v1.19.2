@@ -1,45 +1,477 @@
 [
+    // #region Creatures allowed to spawn regularly
     {
-        "mob": "alexsmobs:devils_hole_pupfish",
-        "result": "allow"
+        "mob": [
+            "minecraft:bee",
+            "alexsmobs:leafcutter_ant"
+        ],
+        "result": "default"
     },
-    // this is a test comment - and it works!
+    // #endregion
     {
-        "incontrol": true,
-        "mob": "minecraft:cow",
-        "seesky": true,
-        "result": "allow"
+        "hostile": true,
+        "mincount": {
+            "amount": 100,
+            "hostile": true
+        },
+        "result": "deny"
+    },   
+
+    // #region : Night Terrors
+    // #region :  - Zombies
+    // #region :    - minecraft:zombie
+    {
+        "mob": "minecraft:zombie",
+        "incontrol": false,
+        "result": "deny"
     },
     {
-        "incontrol": true,
-        "mob": "minecraft:silverfish",
+        "mob": "minecraft:zombie",
         "seesky": false,
         "result": "deny"
     },
     {
-        "mob": "minecraft:silverfish",
+        "mob": "minecraft:zombie",
+        "phase": "skeleton_night",
+        "random": 0.4,
         "result": "deny"
     },
     {
-        "incontrol": true,
-        "mob": "minecraft:drowned",
-        "seesky": true,
-        "helditem": ["1=minecraft:trident", "1=minecraft:stone"],
-        "result": "allow"
-    },
-    {
+        "mob": "minecraft:zombie",
+        "biometags": [
+            "kaisascore:spawn/has_husks"
+        ],
+        "random": 0.7,
         "result": "deny"
     },
     {
-        "incontrol": true,
-        "seesky": true,
-        "armorhelmet": ["minecraft:iron_helmet", "minecraft:golden_helmet"],
-        "result": "allow"
+        "mob": "minecraft:zombie",
+        "result": "default"
     },
+    // #endregion
+
+    // #region :    - minecraft:husk
+    // - added with biome modifier.
+    // can't spawn in caves
     {
+        "mob": "minecraft:husk",
         "incontrol": false,
-        "structure": "minecraft:village",
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "phase": "skeleton_night",
+        "random": 0.4,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "random": 0.3,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:husk",
+        "biome": [
+            "minecraft:desert",
+            "biomesoplenty:lush_desert"
+        ],
+        "result": "default"
+    },
+    {
+        "mob": "minecraft:husk",
+        "result": "deny"
+    },
+    // #endregion
+
+    // #region :    - minecraft:zombie_villager
+    // - added with biome modifier.
+    // can't spawn in caves
+    {
+        "mob": "minecraft:zombie_villager",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie_villager",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:zombie_villager",
+        "result": "default"
+    },
+    // #endregion
+
+    // #region :    - born_in_chaos_v1:zombie_bruiser
+    {
+        "mob": "born_in_chaos_v1:zombie_bruiser",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:zombie_bruiser",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:zombie_bruiser",
+        "phase": "skeleton_night",
+        "random": 0.8,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:zombie_bruiser",
+        "result": "default"
+    },
+    // #endregion
+
+    // #region :    - born_in_chaos_v1:barrel_zombie
+    // - added with biome modifier and in spawner.
+    // can't spawn in caves
+    {
+        "mob": "born_in_chaos_v1:barrel_zombie",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:barrel_zombie",
+        "block": "minecraft:water",
         "result": "allow"
+    },
+    {
+        "mob": "born_in_chaos_v1:barrel_zombie",
+        "incontrol": true,
+        "result": "allow"
+    },
+    {
+        "mob": "born_in_chaos_v1:barrel_zombie",
+        "result": "default"
+    },
+    // #endregion
+    // #endregion
+
+    // #region :  - Skeletons
+    // #region :    - minecraft:skeleton
+    {
+        "mob": "minecraft:skeleton",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "biometags": [
+            "kaisascore:spawn/has_strays"
+        ],
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "result": "default"
+    },
+    // #endregion
+
+    // #region :    - born_in_chaos_v1:decrepit_skeleton
+    {
+        "mob": "born_in_chaos_v1:decrepit_skeleton",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:decrepit_skeleton",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:decrepit_skeleton",
+        "result": "default"
+    },
+    // #endregion
+
+    // #region :    - born_in_chaos_v1:skeleton_thrasher
+    {
+        "mob": "born_in_chaos_v1:skeleton_thrasher",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:skeleton_thrasher",
+        "seesky": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:skeleton_thrasher",
+        "result": "default"
+    },
+    // #endregion
+
+    // #endregion
+
+    // #region :  - Others
+    // #region :    - minecraft:witch
+    {
+        "mob": "minecraft:witch",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:witch",
+        "result": "default"
+    },
+    // #endregion
+    // #endregion
+
+    // #endregion
+
+
+    // #region minecraft:spider
+    {
+        "mob": "minecraft:spider",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "biome": [
+            "minecraft:desert",
+            "biomesoplenty:lush_desert"
+        ],
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "minecraft:spider",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    // for y <= 58, always allow.
+    {
+        "mob": "minecraft:spider",
+        "maxheight": 58,
+        "result": "allow"
+    },
+    // for y > 58, only allow on blocks we expect to be in caves.
+    {
+        "mob": "minecraft:spider",
+        "block": "tag:kaisascore:cave_surface",
+        "result": "allow"
+    },
+    {
+        "mob": "minecraft:spider",
+        "result": "deny"
+    },
+    // #endregion
+    
+    // #region enemyexpansion:tarantula
+    {
+        "mob": "enemyexpansion:tarantula",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "enemyexpansion:tarantula",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "enemyexpansion:tarantula",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    {
+        "mob": "enemyexpansion:tarantula",
+        "result": "allow"
+    },
+    // #endregion
+
+    // #region enemyexpansion:scorpion
+    {
+        "mob": "enemyexpansion:scorpion",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "enemyexpansion:scorpion",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "enemyexpansion:scorpion",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    // for y <= 58, always allow.
+    {
+        "mob": "enemyexpansion:scorpion",
+        "maxheight": 58,
+        "biome": [
+            "minecraft:desert",
+            "biomesoplenty:lush_desert"
+        ],
+        "result": "allow"
+    },
+    // for y > 58, only allow on blocks we expect to be in caves.
+    {
+        "mob": "enemyexpansion:scorpion",
+        "block": "tag:kaisascore:cave_surface",
+        "biome": [
+            "minecraft:desert",
+            "biomesoplenty:lush_desert"
+        ],
+        "result": "allow"
+    },
+    {
+        "mob": "enemyexpansion:scorpion",
+        "result": "deny"
+    },
+    // #endregion
+
+    // #region iter_rpg:scallop
+    {
+        "mob": "iter_rpg:scallop",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "iter_rpg:scallop",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "iter_rpg:scallop",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    // for y <= 58, always allow.
+    {
+        "mob": "iter_rpg:scallop",
+        "maxheight": 58,
+        "result": "allow"
+    },
+    // for y > 58, only allow on blocks we expect to be in caves.
+    {
+        "mob": "iter_rpg:scallop",
+        "block": "tag:kaisascore:cave_surface",
+        "result": "allow"
+    },
+    {
+        "mob": "iter_rpg:scallop",
+        "result": "deny"
+    },
+    // #endregion
+
+    // #region born_in_chaos_v1:restless_spirit
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "structuretags": "minecraft:mineshaft",
+        "result": "allow"
+    },
+    // Restless Spirits spawn more commonly in Mineshafts, and only 20% as
+    // frequently elsewhere.
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "random": 0.1,
+        "result": "allow"
+    },
+    {
+        "mob": "born_in_chaos_v1:restless_spirit",
+        "result": "deny"
+    },
+    // #endregion
+
+    // #region alexsmobs:centipede_head
+    {
+        "mob": "alexsmobs:centipede_head",
+        "incontrol": false,
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:centipede_head",
+        "seesky": true,
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:centipede_head",
+        "minlight_full": 1,
+        "result": "deny"
+    },
+    {
+        "mob": "alexsmobs:centipede_head",
+        "result": "allow"
+    },
+    // #endregion
+
+    // #region born_in_chaos_v1:firelight
+    {
+        "mob": "born_in_chaos_v1:firelight",
+        "incontrol": false,
+        "result": "deny"
+    },
+    //{
+    //    "mob": "born_in_chaos_v1:firelight",
+    //    "block": "minecraft:lava",
+    //    "blockoffset": {
+    //        "x": 1,
+    //        "y": 1,
+    //        "z": 1
+    //    },
+    //    "result": "allow"
+    //},
+    {
+        "mob": "born_in_chaos_v1:firelight",
+        "result": "allow"
+    },
+    // #endregion
+
+    // #region [OMINOUS] alexsmobs:rocky_roller
+    {
+        "mob": "alexsmobs:rocky_roller",
+        "gamestage": "ominous_stage",
+        //"biome": "minecraft:dripstone_caves",
+        "result": "allow"
+    },
+    {
+        "mob": "born_in_chaos_v1:firelight",
+        "result": "deny"
+    },
+    // #endregion
+
+    //{
+    //    "mob": "alexsmobs:devils_hole_pupfish",
+    //    "result": "allow"
+    //},
+    {
+        "mob": "enemyexpansion:botfly",
+        "onjoin": true,
+        "result": "deny"
     },
     {
         "incontrol": false,

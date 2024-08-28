@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "cookingtime": 200,
+    "ingredient": {
+        "item": "minecraft:deepslate_coal_ore"
+    },
+    "result": "minecraft:coal"
+}

@@ -1,1 +1,8 @@
-[]
+[
+    {
+        "name": "skeleton_night",
+        "conditions": {
+            "daycount": "repeat(10,3,8)"
+        }
+    }
+]

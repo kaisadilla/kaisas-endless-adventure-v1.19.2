@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "PPP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:green_wool"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:green_bed",
+        "count": 1
+    }
+}

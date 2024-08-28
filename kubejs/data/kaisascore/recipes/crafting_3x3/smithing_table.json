@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SPS",
+        "SPS"
+    ],
+    "key": {
+        "S": {
+            "tag": "forge:ingots/steel"
+        },
+        "P": {
+            "tag": "minecraft:planks"
+        }
+    },
+    "result": {
+        "item": "minecraft:smithing_table"
+    }
+}
